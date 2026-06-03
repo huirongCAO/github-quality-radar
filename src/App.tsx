@@ -87,7 +87,7 @@ function App() {
   }, [favorites]);
 
   const items = report?.items ?? [];
-  const selectedItem = items.find((item) => item.id === selectedId) ?? items[0];
+  const selectedItem = selectedId ? items.find((item) => item.id === selectedId) : undefined;
 
   const filteredItems = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();

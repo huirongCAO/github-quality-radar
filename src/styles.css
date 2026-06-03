@@ -395,10 +395,6 @@ h1 {
   margin-bottom: 14px;
 }
 
-.close-button {
-  display: none;
-}
-
 .detail-hero {
   align-items: flex-start;
   gap: 12px;
@@ -545,9 +541,6 @@ h1 {
     display: none;
   }
 
-  .close-button {
-    display: inline-flex;
-  }
 }
 
 @media (max-width: 420px) {
