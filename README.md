@@ -1,6 +1,6 @@
 # GitHub 优质项目雷达
 
-一个移动端优先的每日 GitHub 项目和 AI Skill 看板。它会按“实用增长”筛选项目，并为每个条目生成中文讲解、适用场景、安装或接入方式、快速使用步骤和注意事项。
+一个移动端优先的每日 GitHub 项目和 Skill 看板。它会按“实用增长”筛选项目，并为每个条目生成中文讲解、适用场景、安装或接入方式、快速使用步骤和注意事项。
 
 ## 本地运行
 
@@ -94,7 +94,7 @@ https://你的用户名.github.io/github-quality-radar/
 ## 数据生成规则
 
 - 搜索近期创建、近期活跃、增长快、文档完整的 GitHub 项目。
-- 覆盖 AI Skill、MCP、Agent、CLI、Web App、Library、Template 和通用 Project。
+- 覆盖通用 Skill、DevOps、安全、数据、效率、学习、MCP、Agent、CLI、Web App、Library、Template 和通用 Project。
 - 优先从 README 提取安装和快速启动命令。
 - 如果官方文档没有明确步骤，会写入“官方未提供明确安装步骤”，避免编造命令。
 

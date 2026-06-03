@@ -34,6 +34,21 @@ describe("discovery core", () => {
     expect(classifyRepository(baseRepo, "# MCP Server")).toBe("MCP");
   });
 
+  it("classifies broad non-AI skill repositories", () => {
+    expect(
+      classifyRepository(
+        {
+          ...baseRepo,
+          name: "awesome-terminal-skills",
+          full_name: "example/awesome-terminal-skills",
+          description: "Curated cheatsheets and workflow recipes for terminal productivity.",
+          topics: ["awesome", "cheatsheet", "productivity"],
+        },
+        "# Terminal productivity",
+      ),
+    ).toBe("Productivity");
+  });
+
   it("extracts install and quick-start commands from README content", () => {
     const readme = [
       "# Demo",

@@ -1,10 +1,16 @@
 export type ItemKind = "Project" | "Skill";
 
 export type DiscoveryCategory =
+  | "Skill"
   | "AI Skill"
   | "MCP"
   | "Agent"
   | "CLI"
+  | "DevOps"
+  | "Security"
+  | "Data"
+  | "Productivity"
+  | "Learning"
   | "Web App"
   | "Library"
   | "Template"

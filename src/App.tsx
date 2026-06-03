@@ -17,10 +17,15 @@ import type { DiscoveryCategory, DiscoveryItem, DiscoveryReport } from "./lib/ty
 
 const categories: Array<"All" | DiscoveryCategory> = [
   "All",
-  "AI Skill",
+  "Skill",
   "MCP",
   "Agent",
   "CLI",
+  "DevOps",
+  "Security",
+  "Data",
+  "Productivity",
+  "Learning",
   "Web App",
   "Library",
   "Template",
@@ -29,10 +34,16 @@ const categories: Array<"All" | DiscoveryCategory> = [
 
 const categoryLabels: Record<"All" | DiscoveryCategory, string> = {
   All: "全部",
+  Skill: "Skill",
   "AI Skill": "AI Skill",
   MCP: "MCP",
   Agent: "Agent",
   CLI: "CLI",
+  DevOps: "DevOps",
+  Security: "安全",
+  Data: "数据",
+  Productivity: "效率",
+  Learning: "学习",
   "Web App": "Web App",
   Library: "Library",
   Template: "Template",

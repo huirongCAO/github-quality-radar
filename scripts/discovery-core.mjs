@@ -1,7 +1,69 @@
 export const CATEGORY_KEYWORDS = {
-  "AI Skill": ["skill", "prompt", "codex", "claude", "gemini", "assistant", "workflow"],
+  Security: [
+    "security",
+    "cybersecurity",
+    "vulnerability",
+    "pentest",
+    "malware",
+    "forensics",
+    "threat",
+    "owasp",
+    "security-tools",
+  ],
+  DevOps: [
+    "devops",
+    "kubernetes",
+    "docker",
+    "terraform",
+    "observability",
+    "monitoring",
+    "prometheus",
+    "grafana",
+    "ci/cd",
+    "infrastructure",
+  ],
+  Data: [
+    "data-engineering",
+    "data engineering",
+    "analytics",
+    "etl",
+    "database",
+    "warehouse",
+    "postgres",
+    "mysql",
+    "duckdb",
+    "pipeline",
+  ],
+  Productivity: [
+    "productivity",
+    "note",
+    "notes",
+    "knowledge",
+    "automation",
+    "workflow",
+    "shortcut",
+    "task",
+    "todo",
+  ],
+  Learning: ["roadmap", "course", "tutorial", "learn", "learning", "guide", "cheatsheet", "cheat sheet"],
   MCP: ["mcp", "model context protocol", "modelcontextprotocol"],
   Agent: ["agent", "multi-agent", "autonomous", "crew", "browser automation"],
+  Skill: [
+    "skill",
+    "skills",
+    "awesome",
+    "cheatsheet",
+    "cheat sheet",
+    "playbook",
+    "workflow",
+    "roadmap",
+    "tutorial",
+    "guide",
+    "examples",
+    "recipes",
+    "productivity",
+    "automation",
+  ],
   CLI: ["cli", "terminal", "command-line", "tui"],
   "Web App": ["web app", "dashboard", "nextjs", "react", "vue", "svelte"],
   Library: ["sdk", "library", "framework", "package"],
@@ -41,6 +103,23 @@ const AI_WORDS = [
   "model context protocol",
 ];
 
+const BROAD_SKILL_WORDS = [
+  "skill",
+  "skills",
+  "awesome",
+  "cheatsheet",
+  "cheat sheet",
+  "playbook",
+  "workflow",
+  "roadmap",
+  "tutorial",
+  "guide",
+  "examples",
+  "recipes",
+  "productivity",
+  "automation",
+];
+
 export function clamp(value, min, max) {
   return Math.min(max, Math.max(min, value));
 }
@@ -78,7 +157,22 @@ export function collectRepoText(repo, readme = "") {
     .toLowerCase();
 }
 
+export function collectRepoMetadataText(repo) {
+  return [repo.name, repo.full_name, repo.description, repo.language, ...(repo.topics || [])]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+}
+
 export function classifyRepository(repo, readme = "") {
+  const metadataText = collectRepoMetadataText(repo);
+
+  for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
+    if (keywords.some((keyword) => metadataText.includes(keyword))) {
+      return category;
+    }
+  }
+
   const text = collectRepoText(repo, readme);
 
   for (const [category, keywords] of Object.entries(CATEGORY_KEYWORDS)) {
@@ -93,9 +187,11 @@ export function classifyRepository(repo, readme = "") {
 export function isSkillLike(category, repo, readme = "") {
   const text = collectRepoText(repo, readme);
   return (
+    category === "Skill" ||
     category === "AI Skill" ||
     category === "MCP" ||
-    (category === "Agent" && AI_WORDS.some((word) => text.includes(word)))
+    (category === "Agent" && AI_WORDS.some((word) => text.includes(word))) ||
+    BROAD_SKILL_WORDS.some((word) => text.includes(word))
   );
 }
 
@@ -144,10 +240,16 @@ export function inferTags(repo, category) {
 
 export function zhCategoryName(category) {
   const names = {
+    Skill: "实用技能",
     "AI Skill": "AI 助手技能",
     MCP: "MCP 工具",
     Agent: "Agent 项目",
     CLI: "命令行工具",
+    DevOps: "DevOps 技能",
+    Security: "安全技能",
+    Data: "数据技能",
+    Productivity: "效率工具",
+    Learning: "学习路线",
     "Web App": "Web 应用",
     Library: "开发库",
     Template: "项目模板",
@@ -165,10 +267,16 @@ export function buildSummary(repo, category) {
 export function buildUseCases(repo, category) {
   const topics = (repo.topics || []).slice(0, 3).join("、");
   const base = {
+    Skill: ["学习或复用某类实用技能", "把成熟方法整理进个人工作流"],
     "AI Skill": ["给 AI 助手补充可复用能力", "沉淀个人或团队的 agent 工作流"],
     MCP: ["把外部工具接入支持 MCP 的 AI 客户端", "为 agent 提供标准化工具调用"],
     Agent: ["搭建自动化研究、编码或浏览器任务", "验证多步骤 agent 工作流"],
     CLI: ["在终端中完成高频开发任务", "集成进脚本或 CI 流程"],
+    DevOps: ["提升部署、监控或基础设施管理效率", "把运维流程沉淀成可重复执行的工具链"],
+    Security: ["补充安全检测、攻防或审计技能", "把安全工具纳入日常检查流程"],
+    Data: ["搭建数据采集、清洗、分析或可视化流程", "复用成熟的数据工程实践"],
+    Productivity: ["优化个人效率、知识管理或自动化流程", "把重复任务整理成可执行工作流"],
+    Learning: ["系统学习某个技术方向", "把路线图、示例或速查表加入日常练习"],
     "Web App": ["快速体验完整产品形态", "借鉴前端交互和数据流设计"],
     Library: ["接入现有应用作为基础能力", "学习 API 设计和工程组织"],
     Template: ["快速启动新项目", "复用成熟的目录结构和默认配置"],
@@ -183,7 +291,7 @@ export function buildWhyUseful(repo, category, readme) {
   const pushedDays = daysBetween(repo.pushed_at);
 
   if (isSkillLike(category, repo, readme)) {
-    reasons.push("和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。");
+    reasons.push("包含可复用的技能、工作流或上手路径，适合加入日常工具箱。");
   }
 
   if ((repo.topics || []).length >= 3) {
@@ -234,6 +342,12 @@ export function buildSkillIntegration(repo, category, installSteps) {
 
   if (category === "AI Skill") {
     return "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。";
+  }
+
+  if (["Skill", "DevOps", "Security", "Data", "Productivity", "Learning"].includes(category)) {
+    return installSteps.some((step) => step.includes("官方未提供明确"))
+      ? "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。"
+      : "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。";
   }
 
   if (category === "Agent") {

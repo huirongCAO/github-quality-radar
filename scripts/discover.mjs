@@ -16,6 +16,17 @@ const createdAfter = toDateOnly(new Date(now.getTime() - 21 * 86_400_000));
 const pushedAfter = toDateOnly(new Date(now.getTime() - 10 * 86_400_000));
 
 const queries = [
+  `topic:awesome pushed:>${pushedAfter} stars:>100 archived:false`,
+  `topic:cheatsheet pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:productivity pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:automation pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:devops pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:security-tools pushed:>${pushedAfter} stars:>20 archived:false`,
+  `topic:data-engineering pushed:>${pushedAfter} stars:>20 archived:false`,
+  `topic:cli pushed:>${pushedAfter} stars:>100 archived:false`,
+  `developer tools pushed:>${pushedAfter} stars:>100 archived:false`,
+  `learning roadmap pushed:>${pushedAfter} stars:>50 archived:false`,
+  `workflow automation pushed:>${pushedAfter} stars:>50 archived:false`,
   `topic:mcp pushed:>${pushedAfter} stars:>5 archived:false`,
   `mcp server pushed:>${pushedAfter} stars:>5 archived:false`,
   `agent ai pushed:>${pushedAfter} stars:>20 archived:false`,
@@ -27,8 +38,78 @@ const queries = [
   `topic:llm created:>${createdAfter} stars:>5 archived:false`,
   `template fullstack created:>${createdAfter} stars:>10 archived:false`,
   `react nextjs tool pushed:>${pushedAfter} stars:>50 archived:false`,
-  `workflow automation pushed:>${pushedAfter} stars:>50 archived:false`,
 ];
+
+const AI_HEAVY_WORDS = [
+  "ai",
+  "llm",
+  "agent",
+  "mcp",
+  "claude",
+  "codex",
+  "openai",
+  "gemini",
+  "chatgpt",
+  "rag",
+];
+
+function isAiHeavyItem(item) {
+  const text = [item.category, item.fullName, item.description, ...item.topics, ...item.tags]
+    .join(" ")
+    .toLowerCase();
+  return AI_HEAVY_WORDS.some((word) => text.includes(word));
+}
+
+function selectDiverseItems(items, limit = 10) {
+  const sortedItems = [...items].sort((a, b) => b.score - a.score || b.starDelta24h - a.starDelta24h);
+  const selected = [];
+  const selectedIds = new Set();
+  const categoryCounts = new Map();
+
+  function add(item) {
+    selected.push(item);
+    selectedIds.add(item.id);
+    categoryCounts.set(item.category, (categoryCounts.get(item.category) || 0) + 1);
+  }
+
+  for (const category of ["DevOps", "Security", "Data", "Productivity", "Learning", "CLI", "Skill"]) {
+    const candidate = sortedItems.find((item) => item.category === category && !selectedIds.has(item.id));
+    if (candidate && selected.length < limit) {
+      add(candidate);
+    }
+  }
+
+  for (const item of sortedItems) {
+    if (selected.length >= limit || selectedIds.has(item.id)) {
+      continue;
+    }
+
+    const aiHeavyCount = selected.filter(isAiHeavyItem).length;
+    const categoryCount = categoryCounts.get(item.category) || 0;
+
+    if (isAiHeavyItem(item) && aiHeavyCount >= 4) {
+      continue;
+    }
+
+    if (categoryCount >= 2) {
+      continue;
+    }
+
+    add(item);
+  }
+
+  for (const item of sortedItems) {
+    if (selected.length >= limit) {
+      break;
+    }
+
+    if (!selectedIds.has(item.id)) {
+      add(item);
+    }
+  }
+
+  return selected.sort((a, b) => b.score - a.score || b.starDelta24h - a.starDelta24h);
+}
 
 async function githubFetch(url, accept = "application/vnd.github+json") {
   const headers = {
@@ -107,7 +188,7 @@ async function discover() {
       previewScore: scoreRepository(repo, "", previousItems.get(repo.full_name.toLowerCase()), now),
     }))
     .sort((a, b) => b.previewScore - a.previewScore)
-    .slice(0, 28);
+    .slice(0, 80);
 
   const items = [];
 
@@ -124,7 +205,7 @@ async function discover() {
       createdAfter,
       pushedAfter,
     },
-    items: items.sort((a, b) => b.score - a.score || b.starDelta24h - a.starDelta24h).slice(0, 10),
+    items: selectDiverseItems(items, 10),
   };
 
   await mkdir(dirname(outputPath), { recursive: true });

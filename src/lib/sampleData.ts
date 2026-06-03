@@ -31,7 +31,7 @@ export const sampleReport: DiscoveryReport = {
       caveats: ["不同 server 的运行环境不同，使用前需要分别检查依赖和权限。"],
       language: "TypeScript",
       topics: ["mcp", "agent", "tools"],
-      tags: ["MCP", "AI Skill"],
+      tags: ["MCP", "Skill"],
       stars: 0,
       forks: 0,
       openIssues: 0,

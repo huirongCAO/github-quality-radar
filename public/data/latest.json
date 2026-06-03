@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T10:03:56.318Z",
+  "generatedAt": "2026-06-03T10:12:40.380Z",
   "date": "2026-06-03",
   "source": "github-search-api",
   "queryWindow": {
@@ -8,746 +8,749 @@
   },
   "items": [
     {
-      "id": "langchain-ai-langchain",
+      "id": "affaan-m-ecc",
       "kind": "Skill",
-      "category": "AI Skill",
-      "name": "langchain",
-      "fullName": "langchain-ai/langchain",
-      "repoUrl": "https://github.com/langchain-ai/langchain",
-      "homepageUrl": "https://docs.langchain.com/langchain/",
-      "description": "The agent engineering platform.",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：The agent engineering platform.",
+      "category": "Security",
+      "name": "ECC",
+      "fullName": "affaan-m/ECC",
+      "repoUrl": "https://github.com/affaan-m/ECC",
+      "homepageUrl": "https://ecc.tools",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "summaryZh": "这是一个 安全技能，官方描述为：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
         "topics 较完整，便于判断项目定位和生态关联。",
         "README 内容较充分，具备较好的上手线索。",
         "最近 7 天内仍有更新，短期维护活跃。"
       ],
       "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 agents、ai、ai-agents 方向做二次开发"
+        "补充安全检测、攻防或审计技能",
+        "把安全工具纳入日常检查流程",
+        "围绕 ai-agents、anthropic、claude 方向做二次开发"
       ],
       "quickStart": [
-        "python from langchain.chat_models import init_chat_model"
+        "npx ecc-install --profile full",
+        "npx ecc-install --profile minimal --target claude",
+        "npx ecc consult \"security reviews\" --target claude",
+        "npx ecc consult \"mlops training model deployment\" --target claude"
       ],
       "installSteps": [
-        "pip install langchain",
-        "uv add langchain"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "agents",
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "chatgpt",
-        "deepagents",
-        "enterprise",
-        "framework",
-        "gemini",
-        "generative-ai",
-        "langchain",
-        "langgraph",
-        "llm",
-        "multiagent",
-        "open-source",
-        "openai",
-        "pydantic",
-        "python",
-        "rag",
-        "typescript"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "agents",
-        "ai",
-        "ai-agents",
-        "anthropic",
-        "chatgpt"
-      ],
-      "stars": 138391,
-      "forks": 22930,
-      "openIssues": 606,
-      "starDelta24h": 4613,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "langchain-ai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/126733545?v=4",
-        "url": "https://github.com/langchain-ai"
-      },
-      "createdAt": "2022-10-17T02:58:36Z",
-      "updatedAt": "2026-06-03T09:59:46Z",
-      "pushedAt": "2026-06-03T09:37:21Z"
-    },
-    {
-      "id": "shubhamsaboo-awesome-llm-apps",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "awesome-llm-apps",
-      "fullName": "Shubhamsaboo/awesome-llm-apps",
-      "repoUrl": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-      "homepageUrl": "https://www.theunwindai.com",
-      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 agents、llms、python 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python Expert](awesome_agent_skills/python-expert/) | Pythonic code, packaging, performance |"
-      ],
-      "installSteps": [
-        "pip install -r requirements.txt"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "agents",
-        "llms",
-        "python",
-        "rag"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "agents",
-        "llms",
-        "python",
-        "rag"
-      ],
-      "stars": 112707,
-      "forks": 16722,
-      "openIssues": 3,
-      "starDelta24h": 3757,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "Apache-2.0",
-      "owner": {
-        "login": "Shubhamsaboo",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/31396011?v=4",
-        "url": "https://github.com/Shubhamsaboo"
-      },
-      "createdAt": "2024-04-29T05:30:25Z",
-      "updatedAt": "2026-06-03T09:53:46Z",
-      "pushedAt": "2026-06-03T06:36:19Z"
-    },
-    {
-      "id": "openhands-openhands",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "OpenHands",
-      "fullName": "OpenHands/OpenHands",
-      "repoUrl": "https://github.com/OpenHands/OpenHands",
-      "homepageUrl": "https://openhands.dev",
-      "description": "🙌 OpenHands: AI-Driven Development",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：🙌 OpenHands: AI-Driven Development",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 agent、artificial-intelligence、chatgpt 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python library that contains all of our agentic tech. It's the engine that powers everything else below."
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Python",
-      "topics": [
-        "agent",
-        "artificial-intelligence",
-        "chatgpt",
-        "claude-ai",
-        "cli",
-        "developer-tools",
-        "gpt",
-        "llm",
-        "openai"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "agent",
-        "artificial-intelligence",
-        "chatgpt",
-        "claude-ai",
-        "cli"
-      ],
-      "stars": 75719,
-      "forks": 9603,
-      "openIssues": 356,
-      "starDelta24h": 2524,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "NOASSERTION",
-      "owner": {
-        "login": "OpenHands",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/225919603?v=4",
-        "url": "https://github.com/OpenHands"
-      },
-      "createdAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-06-03T09:56:13Z",
-      "pushedAt": "2026-06-03T08:05:35Z"
-    },
-    {
-      "id": "hiyouga-llamafactory",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "LlamaFactory",
-      "fullName": "hiyouga/LlamaFactory",
-      "repoUrl": "https://github.com/hiyouga/LlamaFactory",
-      "homepageUrl": "https://llamafactory.readthedocs.io",
-      "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 agent、ai、deepseek 方向做二次开发"
-      ],
-      "quickStart": [
-        "python | 3.11 | >=3.11 |",
-        "Python 3.11, PyTorch 2.6.0, and Flash-attn 2.7.4.",
-        "Python environment with [uv](https://github.com/astral-sh/uv):",
-        "python -c \"import torch; print(torch.cuda.is_available())\""
-      ],
-      "installSteps": [
-        "pip install \"huggingface_hub<1.0.0\"",
-        "pip install -e .",
-        "pip install -r requirements/metrics.txt",
-        "pip install -e . && pip install -r requirements/metrics.txt -r requirements/deepspeed.txt"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "agent",
-        "ai",
-        "deepseek",
-        "fine-tuning",
-        "gemma",
-        "gpt",
-        "instruction-tuning",
-        "large-language-models",
-        "llama",
-        "llama3",
-        "llm",
-        "lora",
-        "moe",
-        "nlp",
-        "peft",
-        "qlora",
-        "quantization",
-        "qwen",
-        "rlhf",
-        "transformers"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "agent",
-        "ai",
-        "deepseek",
-        "fine-tuning",
-        "gemma"
-      ],
-      "stars": 71834,
-      "forks": 8780,
-      "openIssues": 1030,
-      "starDelta24h": 2394,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "Apache-2.0",
-      "owner": {
-        "login": "hiyouga",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/16256802?v=4",
-        "url": "https://github.com/hiyouga"
-      },
-      "createdAt": "2023-05-28T10:09:12Z",
-      "updatedAt": "2026-06-03T09:43:13Z",
-      "pushedAt": "2026-06-02T14:39:32Z"
-    },
-    {
-      "id": "bytedance-deer-flow",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "deer-flow",
-      "fullName": "bytedance/deer-flow",
-      "repoUrl": "https://github.com/bytedance/deer-flow",
-      "homepageUrl": "https://deerflow.tech",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 agent、agentic、agentic-framework 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python Client](#embedded-python-client)",
-        "python scripts/load_memory_sample.py"
-      ],
-      "installSteps": [
-        "npx -y @zed-industries/codex-acp",
-        "npx skills add https://github.com/bytedance/deer-flow --skill claude-to-deerflow",
-        "Docker Compose deployments, keep",
-        "Docker Compose, IM channels execute inside the"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "agent",
-        "agentic",
-        "agentic-framework",
-        "agentic-workflow",
-        "ai",
-        "ai-agents",
-        "deep-research",
-        "harness",
-        "langchain",
-        "langgraph",
-        "langmanus",
-        "llm",
-        "multi-agent",
-        "nodejs",
-        "podcast",
-        "python",
-        "superagent",
-        "typescript"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "agent",
-        "agentic",
-        "agentic-framework",
-        "agentic-workflow",
-        "ai"
-      ],
-      "stars": 70351,
-      "forks": 9505,
-      "openIssues": 932,
-      "starDelta24h": 2345,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "bytedance",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4158466?v=4",
-        "url": "https://github.com/bytedance"
-      },
-      "createdAt": "2025-05-07T02:50:19Z",
-      "updatedAt": "2026-06-03T09:39:06Z",
-      "pushedAt": "2026-06-03T09:04:16Z"
-    },
-    {
-      "id": "sansan0-trendradar",
-      "kind": "Skill",
-      "category": "MCP",
-      "name": "TrendRadar",
-      "fullName": "sansan0/TrendRadar",
-      "repoUrl": "https://github.com/sansan0/TrendRadar",
-      "homepageUrl": "https://sansan0.github.io/TrendRadar/",
-      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
-      "summaryZh": "这是一个 MCP 工具，官方描述为：⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "把外部工具接入支持 MCP 的 AI 客户端",
-        "为 agent 提供标准化工具调用",
-        "围绕 ai、bark、data-analysis 方向做二次开发"
-      ],
-      "quickStart": [
-        "python manage.py start_webserver",
-        "Python 正则语法",
-        "Python 正则表达式，用于匹配英文单词 \"ai\"，但不匹配 \"training\" 中的 \"ai\"。"
-      ],
-      "installSteps": [
-        "npx @modelcontextprotocol/inspector",
-        "uv run python -m mcp_server.server --transport http --port 3333",
-        "uv run python -m mcp_server.server --transport http --port 33333",
-        "docker compose 等多种部署方式"
-      ],
-      "skillIntegration": "按 README 提供的 server 启动命令，将 command、args 和所需环境变量写入支持 MCP 的客户端配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "ai",
-        "bark",
-        "data-analysis",
-        "docker",
-        "hot-news",
-        "llm",
-        "mail",
-        "mcp",
-        "mcp-server",
-        "news",
-        "ntfy",
-        "python",
-        "rss",
-        "trending-topics",
-        "wechat",
-        "wework"
-      ],
-      "tags": [
-        "MCP",
-        "Python",
-        "ai",
-        "bark",
-        "data-analysis",
-        "docker",
-        "hot-news"
-      ],
-      "stars": 58765,
-      "forks": 24482,
-      "openIssues": 45,
-      "starDelta24h": 1959,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "GPL-3.0",
-      "owner": {
-        "login": "sansan0",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/77180927?v=4",
-        "url": "https://github.com/sansan0"
-      },
-      "createdAt": "2025-04-28T11:42:16Z",
-      "updatedAt": "2026-06-03T10:03:00Z",
-      "pushedAt": "2026-06-02T13:47:09Z"
-    },
-    {
-      "id": "safishamsi-graphify",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "graphify",
-      "fullName": "safishamsi/graphify",
-      "repoUrl": "https://github.com/safishamsi/graphify",
-      "homepageUrl": "https://graphifylabs.ai/",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 antigravity、claude-code、codex 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python | 3.10+ |",
-        "python --version",
-        "python -m graphify",
-        "Python at runtime from"
-      ],
-      "installSteps": [
-        "pip install pipx",
-        "pipx install graphifyy",
-        "pip install graphifyy # may need PATH setup — see note below",
-        "pip install"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "antigravity",
-        "claude-code",
-        "codex",
-        "gemini",
-        "graphrag",
-        "knowledge-graph",
-        "leiden",
-        "openclaw",
-        "rag",
-        "skills",
-        "tree-sitter"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "antigravity",
-        "claude-code",
-        "codex",
-        "gemini",
-        "graphrag"
-      ],
-      "stars": 58631,
-      "forks": 6119,
-      "openIssues": 284,
-      "starDelta24h": 1954,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "safishamsi",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/216348667?v=4",
-        "url": "https://github.com/safishamsi"
-      },
-      "createdAt": "2026-04-03T15:49:07Z",
-      "updatedAt": "2026-06-03T10:03:53Z",
-      "pushedAt": "2026-06-03T09:59:36Z"
-    },
-    {
-      "id": "upstash-context7",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "context7",
-      "fullName": "upstash/context7",
-      "repoUrl": "https://github.com/upstash/context7",
-      "homepageUrl": "https://context7.com",
-      "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 llm、mcp、mcp-server 方向做二次开发"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npm install -g ctx7",
-        "npx ctx7 setup",
-        "npx ctx7 remove"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "TypeScript",
-      "topics": [
-        "llm",
-        "mcp",
-        "mcp-server",
-        "vibe-coding"
-      ],
-      "tags": [
-        "AI Skill",
-        "TypeScript",
-        "llm",
-        "mcp",
-        "mcp-server",
-        "vibe-coding"
-      ],
-      "stars": 56635,
-      "forks": 2676,
-      "openIssues": 141,
-      "starDelta24h": 1888,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "upstash",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/74989412?v=4",
-        "url": "https://github.com/upstash"
-      },
-      "createdAt": "2025-03-26T23:40:39Z",
-      "updatedAt": "2026-06-03T09:34:47Z",
-      "pushedAt": "2026-06-03T09:00:11Z"
-    },
-    {
-      "id": "mempalace-mempalace",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "mempalace",
-      "fullName": "MemPalace/mempalace",
-      "repoUrl": "https://github.com/MemPalace/mempalace",
-      "homepageUrl": "http://mempalaceofficial.com/",
-      "description": "The best-benchmarked open-source AI memory system. And it's free.",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：The best-benchmarked open-source AI memory system. And it's free.",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 ai、chromadb、llm 方向做二次开发"
-      ],
-      "quickStart": [
-        "python -m venv .venv && source .venv/bin/activate",
-        "python benchmarks/longmemeval_bench.py /path/to/longmemeval_s_cleaned.json",
-        "Python 3.9+",
-        "python -m mempalace.onboarding"
-      ],
-      "installSteps": [
-        "pipx install mempalace",
-        "pip install mempalace",
-        "pip install -e \".[dev]\"",
-        "uv tool install"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "ai",
-        "chromadb",
-        "llm",
-        "mcp",
-        "memory",
-        "python"
-      ],
-      "tags": [
-        "AI Skill",
-        "Python",
-        "ai",
-        "chromadb",
-        "llm",
-        "mcp",
-        "memory"
-      ],
-      "stars": 53342,
-      "forks": 7043,
-      "openIssues": 590,
-      "starDelta24h": 1778,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "MemPalace",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/275135684?v=4",
-        "url": "https://github.com/MemPalace"
-      },
-      "createdAt": "2026-04-05T01:12:07Z",
-      "updatedAt": "2026-06-03T09:58:16Z",
-      "pushedAt": "2026-06-03T05:18:15Z"
-    },
-    {
-      "id": "santifer-career-ops",
-      "kind": "Skill",
-      "category": "AI Skill",
-      "name": "career-ops",
-      "fullName": "santifer/career-ops",
-      "repoUrl": "https://github.com/santifer/career-ops",
-      "homepageUrl": "https://career-ops.org",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "summaryZh": "这是一个 AI 助手技能，官方描述为：AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "whyUseful": [
-        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "给 AI 助手补充可复用能力",
-        "沉淀个人或团队的 agent 工作流",
-        "围绕 ai-agent、anthropic、automation 方向做二次开发"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npm install",
-        "npm install -g @google/gemini-cli",
-        "npx playwright install chromium # Required for PDF generation",
-        "npx @google/gemini-cli --version"
-      ],
-      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+        "npm install # or: pnpm install | yarn install | bun install",
+        "npm install && bash scripts/sync-ecc-to-codex.sh",
+        "pnpm install && bash scripts/sync-ecc-to-codex.sh",
+        "yarn install && bash scripts/sync-ecc-to-codex.sh"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
       "caveats": [
         "未发现明显上手风险，仍建议先在隔离环境试运行。"
       ],
       "language": "JavaScript",
       "topics": [
-        "ai-agent",
+        "ai-agents",
         "anthropic",
-        "automation",
-        "career",
-        "careerops",
         "claude",
         "claude-code",
-        "cli",
-        "golang",
-        "interview-prep",
-        "job-search",
-        "open-source",
-        "resume"
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
       ],
       "tags": [
-        "AI Skill",
+        "Security",
         "JavaScript",
-        "ai-agent",
+        "ai-agents",
         "anthropic",
-        "automation",
-        "career",
-        "careerops"
+        "claude",
+        "claude-code",
+        "developer-tools"
       ],
-      "stars": 48452,
-      "forks": 10056,
-      "openIssues": 126,
-      "starDelta24h": 1615,
+      "stars": 204785,
+      "forks": 31412,
+      "openIssues": 64,
+      "starDelta24h": 6826,
       "growthNote": "estimated",
       "score": 100,
       "license": "MIT",
       "owner": {
-        "login": "santifer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/256850418?v=4",
-        "url": "https://github.com/santifer"
+        "login": "affaan-m",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/124439313?v=4",
+        "url": "https://github.com/affaan-m"
       },
-      "createdAt": "2026-04-04T18:21:18Z",
-      "updatedAt": "2026-06-03T10:01:54Z",
-      "pushedAt": "2026-06-03T06:17:55Z"
+      "createdAt": "2026-01-18T00:51:51Z",
+      "updatedAt": "2026-06-03T10:12:25Z",
+      "pushedAt": "2026-06-02T11:51:04Z"
+    },
+    {
+      "id": "n8n-io-n8n",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "repoUrl": "https://github.com/n8n-io/n8n",
+      "homepageUrl": "https://n8n.io",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "summaryZh": "这是一个 效率工具，官方描述为：Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 ai、apis、automation 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npx n8n",
+        "docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "tags": [
+        "Productivity",
+        "TypeScript",
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow"
+      ],
+      "stars": 190876,
+      "forks": 58230,
+      "openIssues": 1485,
+      "starDelta24h": 6363,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "n8n-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
+        "url": "https://github.com/n8n-io"
+      },
+      "createdAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-06-03T10:07:10Z",
+      "pushedAt": "2026-06-03T10:10:38Z"
+    },
+    {
+      "id": "fffaraz-awesome-cpp",
+      "kind": "Skill",
+      "category": "Learning",
+      "name": "awesome-cpp",
+      "fullName": "fffaraz/awesome-cpp",
+      "repoUrl": "https://github.com/fffaraz/awesome-cpp",
+      "homepageUrl": "http://fffaraz.github.io/awesome-cpp/",
+      "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "summaryZh": "这是一个 学习路线，官方描述为：A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "系统学习某个技术方向",
+        "把路线图、示例或速查表加入日常练习",
+        "围绕 awesome、awesome-list、c 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python to developers who require the performance and strength of C++. [GPL2]",
+        "Python library. [Apache2]",
+        "Python with strong GPU acceleration. [website](https://pytorch.org)",
+        "Python for modeling chemically reactive systems. [LGPL] [website](https://reaktoro.org)"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Unknown",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "c",
+        "c-plus-plus",
+        "cpp",
+        "cpp-library",
+        "cppcon",
+        "libraries",
+        "list",
+        "lists",
+        "programming-tutorial",
+        "resources"
+      ],
+      "tags": [
+        "Learning",
+        "awesome",
+        "awesome-list",
+        "c",
+        "c-plus-plus",
+        "cpp"
+      ],
+      "stars": 71587,
+      "forks": 8302,
+      "openIssues": 310,
+      "starDelta24h": 2386,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "fffaraz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/895678?v=4",
+        "url": "https://github.com/fffaraz"
+      },
+      "createdAt": "2014-07-17T08:51:11Z",
+      "updatedAt": "2026-06-03T09:00:18Z",
+      "pushedAt": "2026-05-31T09:43:24Z"
+    },
+    {
+      "id": "tldr-pages-tldr",
+      "kind": "Skill",
+      "category": "Learning",
+      "name": "tldr",
+      "fullName": "tldr-pages/tldr",
+      "repoUrl": "https://github.com/tldr-pages/tldr",
+      "homepageUrl": "https://tldr.sh",
+      "description": "Collaborative cheatsheets for console commands 📚.",
+      "summaryZh": "这是一个 学习路线，官方描述为：Collaborative cheatsheets for console commands 📚.",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "系统学习某个技术方向",
+        "把路线图、示例或速查表加入日常练习",
+        "围绕 android、bsd、cheatsheet 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python client"
+      ],
+      "installSteps": [
+        "npm install -g tldr",
+        "pipx install tldr",
+        "cargo install tlrc --locked",
+        "brew install tlrc"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Markdown",
+      "topics": [
+        "android",
+        "bsd",
+        "cheatsheet",
+        "cheatsheets",
+        "cli",
+        "command-line",
+        "console",
+        "documentation",
+        "examples",
+        "hacktoberfest",
+        "help",
+        "linux",
+        "macos",
+        "man-page",
+        "manual",
+        "osx",
+        "shell",
+        "terminal",
+        "tldr",
+        "windows"
+      ],
+      "tags": [
+        "Learning",
+        "Markdown",
+        "android",
+        "bsd",
+        "cheatsheet",
+        "cheatsheets",
+        "cli"
+      ],
+      "stars": 62761,
+      "forks": 5275,
+      "openIssues": 288,
+      "starDelta24h": 2092,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "tldr-pages",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7366472?v=4",
+        "url": "https://github.com/tldr-pages"
+      },
+      "createdAt": "2013-12-08T07:34:43Z",
+      "updatedAt": "2026-06-03T10:02:07Z",
+      "pushedAt": "2026-06-03T09:01:29Z"
+    },
+    {
+      "id": "rust-unofficial-awesome-rust",
+      "kind": "Skill",
+      "category": "Skill",
+      "name": "awesome-rust",
+      "fullName": "rust-unofficial/awesome-rust",
+      "repoUrl": "https://github.com/rust-unofficial/awesome-rust",
+      "description": "A curated list of Rust code and resources.",
+      "summaryZh": "这是一个 实用技能，官方描述为：A curated list of Rust code and resources.",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。",
+        "已有一定社区关注度，值得进一步评估。"
+      ],
+      "useCases": [
+        "学习或复用某类实用技能",
+        "把成熟方法整理进个人工作流",
+        "围绕 awesome、rust 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python hooks and API [![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)",
+        "Python — code ready for you or your AI agent.",
+        "Python * [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) - Python bindings",
+        "python setuptools that allows you to distribute dynamic linked libraries in Python wheels in the most portable way imaginable."
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Rust",
+      "topics": [
+        "awesome",
+        "rust"
+      ],
+      "tags": [
+        "Skill",
+        "Rust",
+        "awesome",
+        "rust"
+      ],
+      "stars": 57688,
+      "forks": 3399,
+      "openIssues": 8,
+      "starDelta24h": 1923,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "CC0-1.0",
+      "owner": {
+        "login": "rust-unofficial",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20820960?v=4",
+        "url": "https://github.com/rust-unofficial"
+      },
+      "createdAt": "2014-07-17T10:45:10Z",
+      "updatedAt": "2026-06-03T09:51:03Z",
+      "pushedAt": "2026-06-02T07:11:38Z"
+    },
+    {
+      "id": "go-gitea-gitea",
+      "kind": "Skill",
+      "category": "DevOps",
+      "name": "gitea",
+      "fullName": "go-gitea/gitea",
+      "repoUrl": "https://github.com/go-gitea/gitea",
+      "homepageUrl": "https://gitea.com",
+      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "summaryZh": "这是一个 DevOps 技能，官方描述为：Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "提升部署、监控或基础设施管理效率",
+        "把运维流程沉淀成可重复执行的工具链",
+        "围绕 bitbucket、cicd、devops 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Go",
+      "topics": [
+        "bitbucket",
+        "cicd",
+        "devops",
+        "docker-registry-v2",
+        "git",
+        "git-gui",
+        "git-lfs",
+        "git-server",
+        "gitea",
+        "github",
+        "github-actions",
+        "gitlab",
+        "go",
+        "golang",
+        "hacktoberfest",
+        "maven-server",
+        "npm-registry",
+        "self-hosted",
+        "typescript",
+        "vue"
+      ],
+      "tags": [
+        "DevOps",
+        "Go",
+        "bitbucket",
+        "cicd",
+        "devops",
+        "docker-registry-v2",
+        "git"
+      ],
+      "stars": 56090,
+      "forks": 6765,
+      "openIssues": 2794,
+      "starDelta24h": 1870,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "go-gitea",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12724356?v=4",
+        "url": "https://github.com/go-gitea"
+      },
+      "createdAt": "2016-11-01T02:13:26Z",
+      "updatedAt": "2026-06-03T09:27:15Z",
+      "pushedAt": "2026-06-02T07:08:24Z"
+    },
+    {
+      "id": "dkhamsing-open-source-ios-apps",
+      "kind": "Skill",
+      "category": "Skill",
+      "name": "open-source-ios-apps",
+      "fullName": "dkhamsing/open-source-ios-apps",
+      "repoUrl": "https://github.com/dkhamsing/open-source-ios-apps",
+      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "summaryZh": "这是一个 实用技能，官方描述为：:iphone: Collaborative List of Open-Source iOS Apps",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "学习或复用某类实用技能",
+        "把成熟方法整理进个人工作流",
+        "围绕 app、apple、apple-tv 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python 3.7 and Lua 5.3, supports iOS 13 dark mode and multi window"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Unknown",
+      "topics": [
+        "app",
+        "apple",
+        "apple-tv",
+        "apple-vision-pro",
+        "apple-watch",
+        "awesome",
+        "cocoapods",
+        "example",
+        "flutter",
+        "game",
+        "ios",
+        "ipad",
+        "iphone",
+        "list",
+        "objective-c",
+        "react-native",
+        "swift",
+        "swiftui",
+        "tvos",
+        "watchos"
+      ],
+      "tags": [
+        "Skill",
+        "app",
+        "apple",
+        "apple-tv",
+        "apple-vision-pro",
+        "apple-watch"
+      ],
+      "stars": 50571,
+      "forks": 5782,
+      "openIssues": 2,
+      "starDelta24h": 1686,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "CC0-1.0",
+      "owner": {
+        "login": "dkhamsing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4723115?v=4",
+        "url": "https://github.com/dkhamsing"
+      },
+      "createdAt": "2015-01-26T23:32:34Z",
+      "updatedAt": "2026-06-03T09:20:47Z",
+      "pushedAt": "2026-06-02T22:20:09Z"
+    },
+    {
+      "id": "apache-airflow",
+      "kind": "Skill",
+      "category": "Data",
+      "name": "airflow",
+      "fullName": "apache/airflow",
+      "repoUrl": "https://github.com/apache/airflow",
+      "homepageUrl": "https://airflow.apache.org/",
+      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "summaryZh": "这是一个 数据技能，官方描述为：Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "搭建数据采集、清洗、分析或可视化流程",
+        "复用成熟的数据工程实践",
+        "围绕 airflow、apache、apache-airflow 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python and Kubernetes versions](#support-for-python-and-kubernetes-versions)",
+        "Python | 3.10, 3.11, 3.12, 3.13, 3.14 | 3.10, 3.11, 3.12, 3.13, 3.14 | 3.10, 3.11, 3.12 |",
+        "Python version.",
+        "Python versions in the URL."
+      ],
+      "installSteps": [
+        "pip install apache-airflow",
+        "pip install 'apache-airflow==3.2.0' \\",
+        "pip install 'apache-airflow[postgres,google]==3.2.0' \\"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Python",
+      "topics": [
+        "airflow",
+        "apache",
+        "apache-airflow",
+        "automation",
+        "dag",
+        "data-engineering",
+        "data-integration",
+        "data-orchestrator",
+        "data-pipelines",
+        "data-science",
+        "elt",
+        "etl",
+        "machine-learning",
+        "mlops",
+        "orchestration",
+        "python",
+        "scheduler",
+        "workflow",
+        "workflow-engine",
+        "workflow-orchestration"
+      ],
+      "tags": [
+        "Data",
+        "Python",
+        "airflow",
+        "apache",
+        "apache-airflow",
+        "automation",
+        "dag"
+      ],
+      "stars": 45677,
+      "forks": 17157,
+      "openIssues": 1707,
+      "starDelta24h": 1523,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "apache",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
+        "url": "https://github.com/apache"
+      },
+      "createdAt": "2015-04-13T18:04:58Z",
+      "updatedAt": "2026-06-03T09:56:52Z",
+      "pushedAt": "2026-06-03T09:58:37Z"
+    },
+    {
+      "id": "docker-awesome-compose",
+      "kind": "Skill",
+      "category": "DevOps",
+      "name": "awesome-compose",
+      "fullName": "docker/awesome-compose",
+      "repoUrl": "https://github.com/docker/awesome-compose",
+      "homepageUrl": "https://docs.docker.com/compose/",
+      "description": "Awesome Docker Compose samples",
+      "summaryZh": "这是一个 DevOps 技能，官方描述为：Awesome Docker Compose samples",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "提升部署、监控或基础设施管理效率",
+        "把运维流程沉淀成可重复执行的工具链",
+        "围绕 awesome、awesome-list、docker-compose 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python / Flask / Redis",
+        "docker compose up -d"
+      ],
+      "installSteps": [
+        "Docker Compose samples.",
+        "Docker Compose.",
+        "Docker Compose applications with multiple integrated services](#samples-of-docker-compose-applications-with-multiple-integrated-services).",
+        "Docker Compose applications with multiple integrated services"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "HTML",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "docker-compose"
+      ],
+      "tags": [
+        "DevOps",
+        "HTML",
+        "awesome",
+        "awesome-list",
+        "docker-compose"
+      ],
+      "stars": 45461,
+      "forks": 8187,
+      "openIssues": 382,
+      "starDelta24h": 1515,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "CC0-1.0",
+      "owner": {
+        "login": "docker",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
+        "url": "https://github.com/docker"
+      },
+      "createdAt": "2020-02-13T08:51:42Z",
+      "updatedAt": "2026-06-03T09:28:32Z",
+      "pushedAt": "2026-05-29T18:23:50Z"
+    },
+    {
+      "id": "usebruno-bruno",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "bruno",
+      "fullName": "usebruno/bruno",
+      "repoUrl": "https://github.com/usebruno/bruno",
+      "homepageUrl": "https://www.usebruno.com/",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "summaryZh": "这是一个 效率工具，官方描述为：Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 api-client、api-testing、automation 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "brew install bruno"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "JavaScript",
+      "topics": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "tags": [
+        "Productivity",
+        "JavaScript",
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git"
+      ],
+      "stars": 44647,
+      "forks": 2535,
+      "openIssues": 1694,
+      "starDelta24h": 1488,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "usebruno",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/114530840?v=4",
+        "url": "https://github.com/usebruno"
+      },
+      "createdAt": "2022-09-27T20:51:45Z",
+      "updatedAt": "2026-06-03T09:51:35Z",
+      "pushedAt": "2026-06-03T07:17:35Z"
     }
   ]
 }
