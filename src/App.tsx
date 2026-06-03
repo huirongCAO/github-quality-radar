@@ -89,7 +89,6 @@ function App() {
   useEffect(() => {
     loadDiscoveryReport().then((nextReport) => {
       setReport(nextReport);
-      setSelectedId(nextReport.items[0]?.id ?? null);
     });
   }, []);
 
