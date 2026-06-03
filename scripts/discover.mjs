@@ -16,16 +16,16 @@ const createdAfter = toDateOnly(new Date(now.getTime() - 21 * 86_400_000));
 const pushedAfter = toDateOnly(new Date(now.getTime() - 10 * 86_400_000));
 
 const queries = [
-  `topic:awesome pushed:>${pushedAfter} stars:>100 archived:false`,
-  `topic:cheatsheet pushed:>${pushedAfter} stars:>50 archived:false`,
   `topic:productivity pushed:>${pushedAfter} stars:>50 archived:false`,
   `topic:automation pushed:>${pushedAfter} stars:>50 archived:false`,
-  `topic:devops pushed:>${pushedAfter} stars:>50 archived:false`,
-  `topic:security-tools pushed:>${pushedAfter} stars:>20 archived:false`,
-  `topic:data-engineering pushed:>${pushedAfter} stars:>20 archived:false`,
   `topic:cli pushed:>${pushedAfter} stars:>100 archived:false`,
   `developer tools pushed:>${pushedAfter} stars:>100 archived:false`,
   `learning roadmap pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:awesome pushed:>${pushedAfter} stars:>100 archived:false`,
+  `topic:cheatsheet pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:webapp pushed:>${pushedAfter} stars:>50 archived:false`,
+  `topic:library pushed:>${pushedAfter} stars:>100 archived:false`,
+  `topic:template created:>${createdAfter} stars:>5 archived:false`,
   `workflow automation pushed:>${pushedAfter} stars:>50 archived:false`,
   `topic:mcp pushed:>${pushedAfter} stars:>5 archived:false`,
   `mcp server pushed:>${pushedAfter} stars:>5 archived:false`,
@@ -36,6 +36,9 @@ const queries = [
   `developer tools ai pushed:>${pushedAfter} stars:>20 archived:false`,
   `topic:ai created:>${createdAfter} stars:>5 archived:false`,
   `topic:llm created:>${createdAfter} stars:>5 archived:false`,
+  `topic:devops pushed:>${pushedAfter} stars:>1000 archived:false`,
+  `topic:security-tools pushed:>${pushedAfter} stars:>1000 archived:false`,
+  `topic:data-engineering pushed:>${pushedAfter} stars:>1000 archived:false`,
   `template fullstack created:>${createdAfter} stars:>10 archived:false`,
   `react nextjs tool pushed:>${pushedAfter} stars:>50 archived:false`,
 ];
@@ -60,8 +63,43 @@ function isAiHeavyItem(item) {
   return AI_HEAVY_WORDS.some((word) => text.includes(word));
 }
 
-function selectDiverseItems(items, limit = 10) {
-  const sortedItems = [...items].sort((a, b) => b.score - a.score || b.starDelta24h - a.starDelta24h);
+const PREFERRED_CATEGORIES = [
+  "Productivity",
+  "CLI",
+  "Learning",
+  "Skill",
+  "MCP",
+  "Agent",
+  "Web App",
+  "Library",
+  "Template",
+  "Project",
+];
+const LOW_PRIORITY_CATEGORIES = new Set(["Security", "DevOps", "Data"]);
+const README_CONCURRENCY = 8;
+
+function relevanceScore(item) {
+  let score = item.score;
+
+  if (PREFERRED_CATEGORIES.includes(item.category)) {
+    score += 8;
+  }
+
+  if (LOW_PRIORITY_CATEGORIES.has(item.category)) {
+    score -= 18;
+  }
+
+  if (item.starDelta24h > 0) {
+    score += Math.min(8, Math.log2(item.starDelta24h + 1));
+  }
+
+  return score;
+}
+
+function selectDiverseItems(items, limit = 30) {
+  const sortedItems = [...items].sort(
+    (a, b) => relevanceScore(b) - relevanceScore(a) || b.score - a.score || b.starDelta24h - a.starDelta24h,
+  );
   const selected = [];
   const selectedIds = new Set();
   const categoryCounts = new Map();
@@ -72,7 +110,7 @@ function selectDiverseItems(items, limit = 10) {
     categoryCounts.set(item.category, (categoryCounts.get(item.category) || 0) + 1);
   }
 
-  for (const category of ["DevOps", "Security", "Data", "Productivity", "Learning", "CLI", "Skill"]) {
+  for (const category of PREFERRED_CATEGORIES) {
     const candidate = sortedItems.find((item) => item.category === category && !selectedIds.has(item.id));
     if (candidate && selected.length < limit) {
       add(candidate);
@@ -84,14 +122,17 @@ function selectDiverseItems(items, limit = 10) {
       continue;
     }
 
-    const aiHeavyCount = selected.filter(isAiHeavyItem).length;
     const categoryCount = categoryCounts.get(item.category) || 0;
 
-    if (isAiHeavyItem(item) && aiHeavyCount >= 4) {
+    if (isAiHeavyItem(item) && selected.filter(isAiHeavyItem).length >= 10) {
       continue;
     }
 
-    if (categoryCount >= 2) {
+    if (LOW_PRIORITY_CATEGORIES.has(item.category) && categoryCount >= 2) {
+      continue;
+    }
+
+    if (categoryCount >= 6) {
       continue;
     }
 
@@ -108,7 +149,7 @@ function selectDiverseItems(items, limit = 10) {
     }
   }
 
-  return selected.sort((a, b) => b.score - a.score || b.starDelta24h - a.starDelta24h);
+  return selected.sort((a, b) => relevanceScore(b) - relevanceScore(a) || b.score - a.score || b.starDelta24h - a.starDelta24h);
 }
 
 async function githubFetch(url, accept = "application/vnd.github+json") {
@@ -122,7 +163,7 @@ async function githubFetch(url, accept = "application/vnd.github+json") {
     headers.Authorization = `Bearer ${token}`;
   }
 
-  const response = await fetch(url, { headers });
+  const response = await fetch(url, { headers, signal: AbortSignal.timeout(20_000) });
   if (!response.ok) {
     const body = await response.text().catch(() => "");
     throw new Error(`GitHub request failed: ${response.status} ${response.statusText} ${body.slice(0, 180)}`);
@@ -131,12 +172,31 @@ async function githubFetch(url, accept = "application/vnd.github+json") {
   return response;
 }
 
+async function mapWithConcurrency(values, limit, mapper) {
+  const results = new Array(values.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < values.length) {
+      const currentIndex = nextIndex;
+      nextIndex += 1;
+      results[currentIndex] = await mapper(values[currentIndex], currentIndex);
+    }
+  }
+
+  await Promise.all(
+    Array.from({ length: Math.min(limit, values.length) }, () => worker()),
+  );
+
+  return results;
+}
+
 async function searchRepositories(query) {
   const url = new URL("https://api.github.com/search/repositories");
   url.searchParams.set("q", query);
   url.searchParams.set("sort", "stars");
   url.searchParams.set("order", "desc");
-  url.searchParams.set("per_page", "18");
+  url.searchParams.set("per_page", "30");
 
   const response = await githubFetch(url);
   const payload = await response.json();
@@ -180,7 +240,7 @@ async function discover() {
 
   const uniqueRepositories = dedupeRepositories(repositories)
     .filter((repo) => !repo.fork && !repo.archived)
-    .slice(0, 80);
+    .slice(0, 140);
 
   const scoredPreview = uniqueRepositories
     .map((repo) => ({
@@ -188,14 +248,12 @@ async function discover() {
       previewScore: scoreRepository(repo, "", previousItems.get(repo.full_name.toLowerCase()), now),
     }))
     .sort((a, b) => b.previewScore - a.previewScore)
-    .slice(0, 80);
+    .slice(0, 120);
 
-  const items = [];
-
-  for (const { repo } of scoredPreview) {
+  const items = await mapWithConcurrency(scoredPreview, README_CONCURRENCY, async ({ repo }) => {
     const readme = await fetchReadme(repo);
-    items.push(buildDiscoveryItem(repo, readme, previousItems.get(repo.full_name.toLowerCase()), now));
-  }
+    return buildDiscoveryItem(repo, readme, previousItems.get(repo.full_name.toLowerCase()), now);
+  });
 
   const report = {
     generatedAt: now.toISOString(),
@@ -205,7 +263,7 @@ async function discover() {
       createdAfter,
       pushedAfter,
     },
-    items: selectDiverseItems(items, 10),
+    items: selectDiverseItems(items, 30),
   };
 
   await mkdir(dirname(outputPath), { recursive: true });

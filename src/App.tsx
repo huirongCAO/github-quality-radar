@@ -21,9 +21,6 @@ const categories: Array<"All" | DiscoveryCategory> = [
   "MCP",
   "Agent",
   "CLI",
-  "DevOps",
-  "Security",
-  "Data",
   "Productivity",
   "Learning",
   "Web App",
@@ -183,7 +180,7 @@ function App() {
           <input
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="搜索项目、skill、MCP、CLI"
+            placeholder="搜索项目、skill、效率工具、学习资源"
           />
         </label>
 
@@ -354,7 +351,7 @@ function DetailPanel({ item, favorite, onClose, onFavorite }: DetailPanelProps) 
 
       {item.skillIntegration && (
         <section className="detail-section">
-          <h3>Skill 接入</h3>
+          <h3>使用建议</h3>
           <p>{item.skillIntegration}</p>
         </section>
       )}

@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import {
   buildDiscoveryItem,
+  buildSummary,
   classifyRepository,
   dedupeRepositories,
   extractUsageNotes,
@@ -75,6 +76,14 @@ describe("discovery core", () => {
     expect(item.quickStart.length).toBeGreaterThan(0);
     expect(item.caveats.length).toBeGreaterThan(0);
     expect(item.starDelta24h).toBe(10);
+  });
+
+  it("generates a detailed plain-language summary", () => {
+    const summary = buildSummary(baseRepo, "Productivity");
+
+    expect(summary).toContain("它主要解决的问题是");
+    expect(summary).toContain("适合");
+    expect(summary.length).toBeGreaterThan(80);
   });
 
   it("deduplicates repositories by full name", () => {

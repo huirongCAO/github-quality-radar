@@ -84,7 +84,7 @@ const INSTALL_PATTERNS = [
 const QUICK_START_PATTERNS = [
   /\b(?:npm|pnpm|yarn|bun)\s+(?:run\s+)?(?:dev|start|serve)\b[^\n\r`]*/gi,
   /\bnpx\s+[^\n\r`]*/gi,
-  /\bpython\s+[^\n\r`]*/gi,
+  /\bpython3?\s+(?:-m|[\w./-]+\.py)\b[^\n\r`]*/gi,
   /\buv\s+run\b[^\n\r`]*/gi,
   /\bdocker\s+compose\s+up\b[^\n\r`]*/gi,
   /\bdocker\s+run\b[^\n\r`]*/gi,
@@ -259,9 +259,54 @@ export function zhCategoryName(category) {
   return names[category] || "开源项目";
 }
 
+export function buildPlainProblem(category) {
+  const problems = {
+    Skill: "帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。",
+    "AI Skill": "帮你把 AI 助手能力扩展到更具体的任务，而不是每次从零写提示词。",
+    MCP: "帮 AI 助手连接外部工具、数据源或本地能力，让 agent 可以真正执行任务。",
+    Agent: "把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。",
+    CLI: "把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。",
+    DevOps: "提升部署、监控、自动化运维或基础设施管理效率。",
+    Security: "用于安全检查、风险识别、攻防学习或把安全工具纳入日常排查。",
+    Data: "用于数据采集、清洗、调度、分析或数据管道建设。",
+    Productivity: "减少重复操作，改善知识管理、任务流转、自动化和协作效率。",
+    Learning: "提供路线图、示例、速查表或系统资料，适合长期学习和查漏补缺。",
+    "Web App": "提供可以直接体验的网页产品，也适合借鉴交互和产品实现方式。",
+    Library: "作为现有项目里的基础能力接入，减少自己重复造轮子。",
+    Template: "快速启动一个新项目，复用目录结构、配置和最佳实践。",
+    Project: "作为近期活跃的开源项目观察、试用或借鉴实现方式。",
+  };
+
+  return problems[category] || problems.Project;
+}
+
+export function buildAudience(category, repo) {
+  const hasLanguage = Boolean(repo.language);
+  const language = repo.language || "相关资料或工具";
+  const audiences = {
+    Skill: hasLanguage
+      ? `适合想把 ${language} 或相关工具经验变成固定工作流的人。`
+      : "适合想把资料清单、工具集合或实践方法变成固定工作流的人。",
+    MCP: "适合正在使用 Codex、Claude、Cursor 或其他支持工具调用/上下文扩展的 AI 助手用户。",
+    Agent: "适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
+    CLI: "适合每天使用终端、脚本或自动化命令提升效率的开发者。",
+    Productivity: "适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+    Learning: "适合想系统学习一个方向，或者需要一份随时查阅资料清单的人。",
+    "Web App": "适合想直接体验产品能力，或寻找可借鉴 Web 产品实现方式的人。",
+    Library: `适合正在做 ${language} 项目，想把成熟能力接入自己代码的人。`,
+    Template: "适合准备开新项目，希望少花时间搭脚手架的人。",
+    DevOps: "适合负责部署、监控、CI/CD、容器或基础设施的人。",
+    Security: "适合需要做安全学习、审计、排查或工具储备的人。",
+    Data: "适合需要处理数据管道、分析、调度、ETL 或数据产品的人。",
+    Project: "适合想发现近期活跃工具、判断是否值得收藏或试用的人。",
+  };
+
+  return audiences[category] || audiences.Project;
+}
+
 export function buildSummary(repo, category) {
   const description = repo.description || "官方暂未提供清晰描述";
-  return `这是一个 ${zhCategoryName(category)}，官方描述为：${description}`;
+  return `这是一个${zhCategoryName(category)}。它主要解决的问题是：${buildPlainProblem(category)} 官方简介：${description}。${buildAudience(category, repo)}`;
 }
 
 export function buildUseCases(repo, category) {
@@ -283,7 +328,11 @@ export function buildUseCases(repo, category) {
     Project: ["评估新工具是否适合个人工作流", "学习近期活跃项目的实现方式"],
   };
 
-  return unique([...(base[category] || base.Project), topics ? `围绕 ${topics} 方向做二次开发` : "阅读源码和 README 判断可复用部分"]).slice(0, 4);
+  return unique([
+    ...(base[category] || base.Project),
+    topics ? `围绕 ${topics} 方向做二次开发或收藏为参考资料` : "阅读源码和 README 判断可复用部分",
+    "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱",
+  ]).slice(0, 5);
 }
 
 export function buildWhyUseful(repo, category, readme) {
@@ -291,26 +340,28 @@ export function buildWhyUseful(repo, category, readme) {
   const pushedDays = daysBetween(repo.pushed_at);
 
   if (isSkillLike(category, repo, readme)) {
-    reasons.push("包含可复用的技能、工作流或上手路径，适合加入日常工具箱。");
+    reasons.push(`它不是单纯的代码仓库，更像一个可以拆解进日常工作的${zhCategoryName(category)}：先理解它解决什么问题，再挑一个场景试用。`);
   }
 
   if ((repo.topics || []).length >= 3) {
-    reasons.push("topics 较完整，便于判断项目定位和生态关联。");
+    reasons.push(`项目 topics 比较完整，能快速看出它和 ${repo.topics.slice(0, 4).join("、")} 等方向相关，减少你点进去后才发现不相关的时间。`);
   }
 
   if (readme.length > 1600) {
-    reasons.push("README 内容较充分，具备较好的上手线索。");
+    reasons.push("README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。");
   }
 
   if (pushedDays <= 7) {
-    reasons.push("最近 7 天内仍有更新，短期维护活跃。");
+    reasons.push("最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。");
   }
 
   if (repo.stargazers_count >= 100) {
-    reasons.push("已有一定社区关注度，值得进一步评估。");
+    reasons.push(`已有 ${repo.stargazers_count.toLocaleString("en")} 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。`);
   }
 
-  return reasons.length > 0 ? reasons.slice(0, 4) : ["项目信号完整度一般，但近期活跃度值得关注。"];
+  reasons.push("建议你先花 3-5 分钟看 README 的 examples、docs 或 screenshots，再决定是否收藏；不要一上来就完整接入。");
+
+  return reasons.length > 0 ? reasons.slice(0, 5) : ["项目信号完整度一般，但近期活跃度值得关注。"];
 }
 
 export function buildCaveats(repo, readme, installSteps) {

@@ -94,7 +94,9 @@ https://你的用户名.github.io/github-quality-radar/
 ## 数据生成规则
 
 - 搜索近期创建、近期活跃、增长快、文档完整的 GitHub 项目。
-- 覆盖通用 Skill、DevOps、安全、数据、效率、学习、MCP、Agent、CLI、Web App、Library、Template 和通用 Project。
+- 每天展示 30 个项目，优先覆盖通用 Skill、效率、学习、MCP、Agent、CLI、Web App、Library、Template 和通用 Project。
+- DevOps、安全、数据工程项目仍会进入候选池，但默认降权，避免占用太多日常推荐位。
+- 讲解会说明项目解决什么问题、适合谁、为什么值得看、怎么先小范围试用。
 - 优先从 README 提取安装和快速启动命令。
 - 如果官方文档没有明确步骤，会写入“官方未提供明确安装步骤”，避免编造命令。
 
