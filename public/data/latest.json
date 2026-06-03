@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-03T10:12:40.380Z",
+  "generatedAt": "2026-06-03T10:15:32.218Z",
   "date": "2026-06-03",
   "source": "github-search-api",
   "queryWindow": {
@@ -8,15 +8,368 @@
   },
   "items": [
     {
-      "id": "affaan-m-ecc",
+      "id": "sindresorhus-awesome",
+      "kind": "Skill",
+      "category": "Skill",
+      "name": "awesome",
+      "fullName": "sindresorhus/awesome",
+      "repoUrl": "https://github.com/sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "summaryZh": "这是一个 实用技能，官方描述为：😎 Awesome lists about all kinds of interesting topics",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "学习或复用某类实用技能",
+        "把成熟方法整理进个人工作流",
+        "围绕 awesome、awesome-list、lists 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python 3.",
+        "Python for microcontrollers.",
+        "Python 3 for microcontrollers.",
+        "Python and compiles to performant JavaScript."
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Unknown",
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources",
+        "unicorns"
+      ],
+      "tags": [
+        "Skill",
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources",
+        "unicorns"
+      ],
+      "stars": 472505,
+      "forks": 35293,
+      "openIssues": 81,
+      "starDelta24h": 15750,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "CC0-1.0",
+      "owner": {
+        "login": "sindresorhus",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/170270?v=4",
+        "url": "https://github.com/sindresorhus"
+      },
+      "createdAt": "2014-07-11T13:42:37Z",
+      "updatedAt": "2026-06-03T10:14:06Z",
+      "pushedAt": "2026-06-02T12:50:13Z"
+    },
+    {
+      "id": "vinta-awesome-python",
+      "kind": "Skill",
+      "category": "Skill",
+      "name": "awesome-python",
+      "fullName": "vinta/awesome-python",
+      "repoUrl": "https://github.com/vinta/awesome-python",
+      "homepageUrl": "https://awesome-python.com/",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "summaryZh": "这是一个 实用技能，官方描述为：An opinionated list of Python frameworks, libraries, tools, and resources",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "学习或复用某类实用技能",
+        "把成熟方法整理进个人工作流",
+        "围绕 awesome、collections、python 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python frameworks, libraries, tools, and resources.",
+        "Python developers. [Become a sponsor](SPONSORSHIP.md).",
+        "Python Language**",
+        "Python Toolchain**"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "collections",
+        "python",
+        "python-frameworks",
+        "python-libraries",
+        "python-tools"
+      ],
+      "tags": [
+        "Skill",
+        "Python",
+        "awesome",
+        "collections",
+        "python",
+        "python-frameworks",
+        "python-libraries"
+      ],
+      "stars": 301014,
+      "forks": 28033,
+      "openIssues": 21,
+      "starDelta24h": 10034,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "vinta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/652070?v=4",
+        "url": "https://github.com/vinta"
+      },
+      "createdAt": "2014-06-27T21:00:06Z",
+      "updatedAt": "2026-06-03T10:05:28Z",
+      "pushedAt": "2026-06-02T09:23:11Z"
+    },
+    {
+      "id": "ohmyzsh-ohmyzsh",
+      "kind": "Skill",
+      "category": "DevOps",
+      "name": "ohmyzsh",
+      "fullName": "ohmyzsh/ohmyzsh",
+      "repoUrl": "https://github.com/ohmyzsh/ohmyzsh",
+      "homepageUrl": "https://ohmyz.sh",
+      "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "summaryZh": "这是一个 DevOps 技能，官方描述为：🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "提升部署、监控或基础设施管理效率",
+        "把运维流程沉淀成可重复执行的工具链",
+        "围绕 cli、cli-app、oh-my-zsh 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Shell",
+      "topics": [
+        "cli",
+        "cli-app",
+        "oh-my-zsh",
+        "oh-my-zsh-plugin",
+        "oh-my-zsh-theme",
+        "ohmyzsh",
+        "plugin-framework",
+        "plugins",
+        "productivity",
+        "shell",
+        "terminal",
+        "theme",
+        "themes",
+        "zsh",
+        "zsh-configuration"
+      ],
+      "tags": [
+        "DevOps",
+        "Shell",
+        "cli",
+        "cli-app",
+        "oh-my-zsh",
+        "oh-my-zsh-plugin",
+        "oh-my-zsh-theme"
+      ],
+      "stars": 187597,
+      "forks": 26369,
+      "openIssues": 552,
+      "starDelta24h": 6253,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "ohmyzsh",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/22552083?v=4",
+        "url": "https://github.com/ohmyzsh"
+      },
+      "createdAt": "2009-08-28T18:15:37Z",
+      "updatedAt": "2026-06-03T09:44:08Z",
+      "pushedAt": "2026-06-01T09:06:46Z"
+    },
+    {
+      "id": "langgenius-dify",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "dify",
+      "fullName": "langgenius/dify",
+      "repoUrl": "https://github.com/langgenius/dify",
+      "homepageUrl": "https://dify.ai",
+      "description": "Production-ready platform for agentic workflow development.",
+      "summaryZh": "这是一个 效率工具，官方描述为：Production-ready platform for agentic workflow development.",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 agent、agentic-ai、agentic-framework 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "docker compose up -d"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "gemini",
+        "genai",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "orchestration",
+        "python",
+        "rag",
+        "workflow"
+      ],
+      "tags": [
+        "Productivity",
+        "TypeScript",
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai"
+      ],
+      "stars": 143672,
+      "forks": 22602,
+      "openIssues": 695,
+      "starDelta24h": 4789,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "langgenius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127165244?v=4",
+        "url": "https://github.com/langgenius"
+      },
+      "createdAt": "2023-04-12T07:40:24Z",
+      "updatedAt": "2026-06-03T10:13:32Z",
+      "pushedAt": "2026-06-03T10:13:48Z"
+    },
+    {
+      "id": "excalidraw-excalidraw",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "excalidraw",
+      "fullName": "excalidraw/excalidraw",
+      "repoUrl": "https://github.com/excalidraw/excalidraw",
+      "homepageUrl": "https://excalidraw.com",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "summaryZh": "这是一个 效率工具，官方描述为：Virtual whiteboard for sketching hand-drawn like diagrams",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 canvas、collaboration、diagrams 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npm install react react-dom @excalidraw/excalidraw",
+        "yarn add react react-dom @excalidraw/excalidraw"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "canvas",
+        "collaboration",
+        "diagrams",
+        "drawing",
+        "hacktoberfest",
+        "productivity",
+        "whiteboard"
+      ],
+      "tags": [
+        "Productivity",
+        "TypeScript",
+        "canvas",
+        "collaboration",
+        "diagrams",
+        "drawing",
+        "hacktoberfest"
+      ],
+      "stars": 124536,
+      "forks": 13885,
+      "openIssues": 3124,
+      "starDelta24h": 4151,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "excalidraw",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59452120?v=4",
+        "url": "https://github.com/excalidraw"
+      },
+      "createdAt": "2020-01-02T01:04:43Z",
+      "updatedAt": "2026-06-03T10:13:57Z",
+      "pushedAt": "2026-06-02T17:06:45Z"
+    },
+    {
+      "id": "ruvnet-ruview",
       "kind": "Skill",
       "category": "Security",
-      "name": "ECC",
-      "fullName": "affaan-m/ECC",
-      "repoUrl": "https://github.com/affaan-m/ECC",
-      "homepageUrl": "https://ecc.tools",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-      "summaryZh": "这是一个 安全技能，官方描述为：The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "name": "RuView",
+      "fullName": "ruvnet/RuView",
+      "repoUrl": "https://github.com/ruvnet/RuView",
+      "homepageUrl": "https://Cognitum.One/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "summaryZh": "这是一个 安全技能，官方描述为：π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "whyUseful": [
         "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
         "topics 较完整，便于判断项目定位和生态关联。",
@@ -26,70 +379,81 @@
       "useCases": [
         "补充安全检测、攻防或审计技能",
         "把安全工具纳入日常检查流程",
-        "围绕 ai-agents、anthropic、claude 方向做二次开发"
+        "围绕 awesome、claude、densepose 方向做二次开发"
       ],
       "quickStart": [
-        "npx ecc-install --profile full",
-        "npx ecc-install --profile minimal --target claude",
-        "npx ecc consult \"security reviews\" --target claude",
-        "npx ecc consult \"mlops training model deployment\" --target claude"
+        "python -m esptool --chip esp32s3 --port COM9 --baud 460800 \\",
+        "python firmware/esp32-csi-node/provision.py --port COM9 \\",
+        "Python — live on PyPI (ADR-117)"
       ],
       "installSteps": [
-        "npm install # or: pnpm install | yarn install | bun install",
-        "npm install && bash scripts/sync-ecc-to-codex.sh",
-        "pnpm install && bash scripts/sync-ecc-to-codex.sh",
-        "yarn install && bash scripts/sync-ecc-to-codex.sh"
+        "npx @ruvnet/rvagent stdio",
+        "pip install ruview # or: pip install wifi-densepose",
+        "pip install \"ruview[client]\" # or: pip install \"wifi-densepose[client]\"",
+        "pip install huggingface_hub"
       ],
       "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
       "caveats": [
         "未发现明显上手风险，仍建议先在隔离环境试运行。"
       ],
-      "language": "JavaScript",
+      "language": "Rust",
       "topics": [
-        "ai-agents",
-        "anthropic",
+        "awesome",
         "claude",
-        "claude-code",
-        "developer-tools",
-        "llm",
-        "mcp",
-        "productivity"
+        "densepose",
+        "esp32",
+        "firmware",
+        "home-assistant",
+        "home-automation",
+        "iot",
+        "monitoring",
+        "networking",
+        "npm",
+        "pose-estimation",
+        "react",
+        "rf",
+        "self-learning",
+        "skills",
+        "spatial-intelligence",
+        "typescript",
+        "wifi",
+        "wifi-security"
       ],
       "tags": [
         "Security",
-        "JavaScript",
-        "ai-agents",
-        "anthropic",
+        "Rust",
+        "awesome",
         "claude",
-        "claude-code",
-        "developer-tools"
+        "densepose",
+        "esp32",
+        "firmware"
       ],
-      "stars": 204785,
-      "forks": 31412,
-      "openIssues": 64,
-      "starDelta24h": 6826,
+      "stars": 70360,
+      "forks": 9413,
+      "openIssues": 167,
+      "starDelta24h": 2345,
       "growthNote": "estimated",
       "score": 100,
       "license": "MIT",
       "owner": {
-        "login": "affaan-m",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/124439313?v=4",
-        "url": "https://github.com/affaan-m"
+        "login": "ruvnet",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2934394?v=4",
+        "url": "https://github.com/ruvnet"
       },
-      "createdAt": "2026-01-18T00:51:51Z",
-      "updatedAt": "2026-06-03T10:12:25Z",
-      "pushedAt": "2026-06-02T11:51:04Z"
+      "createdAt": "2025-06-07T04:32:30Z",
+      "updatedAt": "2026-06-03T10:15:25Z",
+      "pushedAt": "2026-06-03T10:06:12Z"
     },
     {
-      "id": "n8n-io-n8n",
+      "id": "voltagent-awesome-openclaw-skills",
       "kind": "Skill",
-      "category": "Productivity",
-      "name": "n8n",
-      "fullName": "n8n-io/n8n",
-      "repoUrl": "https://github.com/n8n-io/n8n",
-      "homepageUrl": "https://n8n.io",
-      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
-      "summaryZh": "这是一个 效率工具，官方描述为：Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "category": "Agent",
+      "name": "awesome-openclaw-skills",
+      "fullName": "VoltAgent/awesome-openclaw-skills",
+      "repoUrl": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "homepageUrl": "https://clawskills.sh/",
+      "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+      "summaryZh": "这是一个 Agent 项目，官方描述为：The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
       "whyUseful": [
         "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
         "topics 较完整，便于判断项目定位和生态关联。",
@@ -97,16 +461,91 @@
         "最近 7 天内仍有更新，短期维护活跃。"
       ],
       "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 ai、apis、automation 方向做二次开发"
+        "搭建自动化研究、编码或浏览器任务",
+        "验证多步骤 agent 工作流",
+        "围绕 agent-skills、awesome、awesome-list 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python command using your shell/exec tool.** Read the real output.",
+        "Python SDK for accessing LinkedIn professional profile.",
+        "Python solutions for CritPt benchmark problems.",
+        "Python API and CLI."
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "官方未提供明确 agent 接入命令，建议先阅读 examples 或 docs 后再接入。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Unknown",
+      "topics": [
+        "agent-skills",
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "clawd",
+        "clawdbot",
+        "clawdbot-skill",
+        "clawdhub",
+        "moltbot",
+        "moltbot-skills",
+        "openclaw",
+        "openclaw-skills"
+      ],
+      "tags": [
+        "Agent",
+        "agent-skills",
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "clawd"
+      ],
+      "stars": 49731,
+      "forks": 4851,
+      "openIssues": 18,
+      "starDelta24h": 1658,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "VoltAgent",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/201282378?v=4",
+        "url": "https://github.com/VoltAgent"
+      },
+      "createdAt": "2026-01-25T09:22:32Z",
+      "updatedAt": "2026-06-03T10:11:05Z",
+      "pushedAt": "2026-06-01T06:42:21Z"
+    },
+    {
+      "id": "typescript-cheatsheets-react",
+      "kind": "Skill",
+      "category": "Learning",
+      "name": "react",
+      "fullName": "typescript-cheatsheets/react",
+      "repoUrl": "https://github.com/typescript-cheatsheets/react",
+      "homepageUrl": "https://react-typescript-cheatsheet.netlify.app",
+      "description": "Cheatsheets for experienced React developers getting started with TypeScript",
+      "summaryZh": "这是一个 学习路线，官方描述为：Cheatsheets for experienced React developers getting started with TypeScript",
+      "whyUseful": [
+        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "系统学习某个技术方向",
+        "把路线图、示例或速查表加入日常练习",
+        "围绕 cheatsheet、guide、react 方向做二次开发"
       ],
       "quickStart": [
         "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
       ],
       "installSteps": [
-        "npx n8n",
-        "docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
+        "npm create vite@latest my-app -- --template react-ts",
+        "npx create-next-app@latest --ts",
+        "npx create-remix@latest",
+        "npx create-expo-app -t with-typescript"
       ],
       "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
       "caveats": [
@@ -114,433 +553,45 @@
       ],
       "language": "TypeScript",
       "topics": [
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow",
-        "development",
-        "integration-framework",
-        "integrations",
-        "ipaas",
-        "low-code",
-        "low-code-platform",
-        "mcp",
-        "mcp-client",
-        "mcp-server",
-        "n8n",
-        "no-code",
-        "self-hosted",
-        "typescript",
-        "workflow",
-        "workflow-automation"
+        "cheatsheet",
+        "guide",
+        "react",
+        "typescript"
       ],
       "tags": [
-        "Productivity",
+        "Learning",
         "TypeScript",
-        "ai",
-        "apis",
-        "automation",
-        "cli",
-        "data-flow"
+        "cheatsheet",
+        "guide",
+        "react",
+        "typescript"
       ],
-      "stars": 190876,
-      "forks": 58230,
-      "openIssues": 1485,
-      "starDelta24h": 6363,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "NOASSERTION",
-      "owner": {
-        "login": "n8n-io",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
-        "url": "https://github.com/n8n-io"
-      },
-      "createdAt": "2019-06-22T09:24:21Z",
-      "updatedAt": "2026-06-03T10:07:10Z",
-      "pushedAt": "2026-06-03T10:10:38Z"
-    },
-    {
-      "id": "fffaraz-awesome-cpp",
-      "kind": "Skill",
-      "category": "Learning",
-      "name": "awesome-cpp",
-      "fullName": "fffaraz/awesome-cpp",
-      "repoUrl": "https://github.com/fffaraz/awesome-cpp",
-      "homepageUrl": "http://fffaraz.github.io/awesome-cpp/",
-      "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
-      "summaryZh": "这是一个 学习路线，官方描述为：A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
-      "whyUseful": [
-        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "系统学习某个技术方向",
-        "把路线图、示例或速查表加入日常练习",
-        "围绕 awesome、awesome-list、c 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python to developers who require the performance and strength of C++. [GPL2]",
-        "Python library. [Apache2]",
-        "Python with strong GPU acceleration. [website](https://pytorch.org)",
-        "Python for modeling chemically reactive systems. [LGPL] [website](https://reaktoro.org)"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Unknown",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "c",
-        "c-plus-plus",
-        "cpp",
-        "cpp-library",
-        "cppcon",
-        "libraries",
-        "list",
-        "lists",
-        "programming-tutorial",
-        "resources"
-      ],
-      "tags": [
-        "Learning",
-        "awesome",
-        "awesome-list",
-        "c",
-        "c-plus-plus",
-        "cpp"
-      ],
-      "stars": 71587,
-      "forks": 8302,
-      "openIssues": 310,
-      "starDelta24h": 2386,
+      "stars": 47069,
+      "forks": 4294,
+      "openIssues": 0,
+      "starDelta24h": 1569,
       "growthNote": "estimated",
       "score": 100,
       "license": "MIT",
       "owner": {
-        "login": "fffaraz",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/895678?v=4",
-        "url": "https://github.com/fffaraz"
+        "login": "typescript-cheatsheets",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50188264?v=4",
+        "url": "https://github.com/typescript-cheatsheets"
       },
-      "createdAt": "2014-07-17T08:51:11Z",
-      "updatedAt": "2026-06-03T09:00:18Z",
-      "pushedAt": "2026-05-31T09:43:24Z"
+      "createdAt": "2018-06-02T04:08:16Z",
+      "updatedAt": "2026-06-03T03:58:43Z",
+      "pushedAt": "2026-05-29T19:52:44Z"
     },
     {
-      "id": "tldr-pages-tldr",
-      "kind": "Skill",
-      "category": "Learning",
-      "name": "tldr",
-      "fullName": "tldr-pages/tldr",
-      "repoUrl": "https://github.com/tldr-pages/tldr",
-      "homepageUrl": "https://tldr.sh",
-      "description": "Collaborative cheatsheets for console commands 📚.",
-      "summaryZh": "这是一个 学习路线，官方描述为：Collaborative cheatsheets for console commands 📚.",
-      "whyUseful": [
-        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "系统学习某个技术方向",
-        "把路线图、示例或速查表加入日常练习",
-        "围绕 android、bsd、cheatsheet 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python client"
-      ],
-      "installSteps": [
-        "npm install -g tldr",
-        "pipx install tldr",
-        "cargo install tlrc --locked",
-        "brew install tlrc"
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Markdown",
-      "topics": [
-        "android",
-        "bsd",
-        "cheatsheet",
-        "cheatsheets",
-        "cli",
-        "command-line",
-        "console",
-        "documentation",
-        "examples",
-        "hacktoberfest",
-        "help",
-        "linux",
-        "macos",
-        "man-page",
-        "manual",
-        "osx",
-        "shell",
-        "terminal",
-        "tldr",
-        "windows"
-      ],
-      "tags": [
-        "Learning",
-        "Markdown",
-        "android",
-        "bsd",
-        "cheatsheet",
-        "cheatsheets",
-        "cli"
-      ],
-      "stars": 62761,
-      "forks": 5275,
-      "openIssues": 288,
-      "starDelta24h": 2092,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "NOASSERTION",
-      "owner": {
-        "login": "tldr-pages",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/7366472?v=4",
-        "url": "https://github.com/tldr-pages"
-      },
-      "createdAt": "2013-12-08T07:34:43Z",
-      "updatedAt": "2026-06-03T10:02:07Z",
-      "pushedAt": "2026-06-03T09:01:29Z"
-    },
-    {
-      "id": "rust-unofficial-awesome-rust",
-      "kind": "Skill",
-      "category": "Skill",
-      "name": "awesome-rust",
-      "fullName": "rust-unofficial/awesome-rust",
-      "repoUrl": "https://github.com/rust-unofficial/awesome-rust",
-      "description": "A curated list of Rust code and resources.",
-      "summaryZh": "这是一个 实用技能，官方描述为：A curated list of Rust code and resources.",
-      "whyUseful": [
-        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。",
-        "已有一定社区关注度，值得进一步评估。"
-      ],
-      "useCases": [
-        "学习或复用某类实用技能",
-        "把成熟方法整理进个人工作流",
-        "围绕 awesome、rust 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python hooks and API [![CI](https://github.com/aannoo/hcom/actions/workflows/ci.yml/badge.svg)](https://github.com/aannoo/hcom/actions/workflows/ci.yml)",
-        "Python — code ready for you or your AI agent.",
-        "Python * [dgrunwald/rust-cpython](https://github.com/dgrunwald/rust-cpython) - Python bindings",
-        "python setuptools that allows you to distribute dynamic linked libraries in Python wheels in the most portable way imaginable."
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Rust",
-      "topics": [
-        "awesome",
-        "rust"
-      ],
-      "tags": [
-        "Skill",
-        "Rust",
-        "awesome",
-        "rust"
-      ],
-      "stars": 57688,
-      "forks": 3399,
-      "openIssues": 8,
-      "starDelta24h": 1923,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "CC0-1.0",
-      "owner": {
-        "login": "rust-unofficial",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20820960?v=4",
-        "url": "https://github.com/rust-unofficial"
-      },
-      "createdAt": "2014-07-17T10:45:10Z",
-      "updatedAt": "2026-06-03T09:51:03Z",
-      "pushedAt": "2026-06-02T07:11:38Z"
-    },
-    {
-      "id": "go-gitea-gitea",
-      "kind": "Skill",
-      "category": "DevOps",
-      "name": "gitea",
-      "fullName": "go-gitea/gitea",
-      "repoUrl": "https://github.com/go-gitea/gitea",
-      "homepageUrl": "https://gitea.com",
-      "description": "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-      "summaryZh": "这是一个 DevOps 技能，官方描述为：Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD",
-      "whyUseful": [
-        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "提升部署、监控或基础设施管理效率",
-        "把运维流程沉淀成可重复执行的工具链",
-        "围绕 bitbucket、cicd、devops 方向做二次开发"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Go",
-      "topics": [
-        "bitbucket",
-        "cicd",
-        "devops",
-        "docker-registry-v2",
-        "git",
-        "git-gui",
-        "git-lfs",
-        "git-server",
-        "gitea",
-        "github",
-        "github-actions",
-        "gitlab",
-        "go",
-        "golang",
-        "hacktoberfest",
-        "maven-server",
-        "npm-registry",
-        "self-hosted",
-        "typescript",
-        "vue"
-      ],
-      "tags": [
-        "DevOps",
-        "Go",
-        "bitbucket",
-        "cicd",
-        "devops",
-        "docker-registry-v2",
-        "git"
-      ],
-      "stars": 56090,
-      "forks": 6765,
-      "openIssues": 2794,
-      "starDelta24h": 1870,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "go-gitea",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/12724356?v=4",
-        "url": "https://github.com/go-gitea"
-      },
-      "createdAt": "2016-11-01T02:13:26Z",
-      "updatedAt": "2026-06-03T09:27:15Z",
-      "pushedAt": "2026-06-02T07:08:24Z"
-    },
-    {
-      "id": "dkhamsing-open-source-ios-apps",
-      "kind": "Skill",
-      "category": "Skill",
-      "name": "open-source-ios-apps",
-      "fullName": "dkhamsing/open-source-ios-apps",
-      "repoUrl": "https://github.com/dkhamsing/open-source-ios-apps",
-      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
-      "summaryZh": "这是一个 实用技能，官方描述为：:iphone: Collaborative List of Open-Source iOS Apps",
-      "whyUseful": [
-        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "学习或复用某类实用技能",
-        "把成熟方法整理进个人工作流",
-        "围绕 app、apple、apple-tv 方向做二次开发"
-      ],
-      "quickStart": [
-        "Python 3.7 and Lua 5.3, supports iOS 13 dark mode and multi window"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Unknown",
-      "topics": [
-        "app",
-        "apple",
-        "apple-tv",
-        "apple-vision-pro",
-        "apple-watch",
-        "awesome",
-        "cocoapods",
-        "example",
-        "flutter",
-        "game",
-        "ios",
-        "ipad",
-        "iphone",
-        "list",
-        "objective-c",
-        "react-native",
-        "swift",
-        "swiftui",
-        "tvos",
-        "watchos"
-      ],
-      "tags": [
-        "Skill",
-        "app",
-        "apple",
-        "apple-tv",
-        "apple-vision-pro",
-        "apple-watch"
-      ],
-      "stars": 50571,
-      "forks": 5782,
-      "openIssues": 2,
-      "starDelta24h": 1686,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "CC0-1.0",
-      "owner": {
-        "login": "dkhamsing",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4723115?v=4",
-        "url": "https://github.com/dkhamsing"
-      },
-      "createdAt": "2015-01-26T23:32:34Z",
-      "updatedAt": "2026-06-03T09:20:47Z",
-      "pushedAt": "2026-06-02T22:20:09Z"
-    },
-    {
-      "id": "apache-airflow",
+      "id": "appsmithorg-appsmith",
       "kind": "Skill",
       "category": "Data",
-      "name": "airflow",
-      "fullName": "apache/airflow",
-      "repoUrl": "https://github.com/apache/airflow",
-      "homepageUrl": "https://airflow.apache.org/",
-      "description": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
-      "summaryZh": "这是一个 数据技能，官方描述为：Apache Airflow - A platform to programmatically author, schedule, and monitor workflows",
+      "name": "appsmith",
+      "fullName": "appsmithorg/appsmith",
+      "repoUrl": "https://github.com/appsmithorg/appsmith",
+      "homepageUrl": "https://www.appsmith.com",
+      "description": "Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
+      "summaryZh": "这是一个 数据技能，官方描述为：Platform to build admin panels, internal tools, and dashboards. Integrates with 25+ databases and any API.",
       "whyUseful": [
         "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
         "topics 较完整，便于判断项目定位和生态关联。",
@@ -550,81 +601,76 @@
       "useCases": [
         "搭建数据采集、清洗、分析或可视化流程",
         "复用成熟的数据工程实践",
-        "围绕 airflow、apache、apache-airflow 方向做二次开发"
+        "围绕 admin-dashboard、admin-panels、app-builder 方向做二次开发"
       ],
       "quickStart": [
-        "Python and Kubernetes versions](#support-for-python-and-kubernetes-versions)",
-        "Python | 3.10, 3.11, 3.12, 3.13, 3.14 | 3.10, 3.11, 3.12, 3.13, 3.14 | 3.10, 3.11, 3.12 |",
-        "Python version.",
-        "Python versions in the URL."
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
       ],
       "installSteps": [
-        "pip install apache-airflow",
-        "pip install 'apache-airflow==3.2.0' \\",
-        "pip install 'apache-airflow[postgres,google]==3.2.0' \\"
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
       ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
       "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
       ],
-      "language": "Python",
+      "language": "TypeScript",
       "topics": [
-        "airflow",
-        "apache",
-        "apache-airflow",
+        "admin-dashboard",
+        "admin-panels",
+        "app-builder",
         "automation",
-        "dag",
-        "data-engineering",
-        "data-integration",
-        "data-orchestrator",
-        "data-pipelines",
-        "data-science",
-        "elt",
-        "etl",
-        "machine-learning",
-        "mlops",
-        "orchestration",
-        "python",
-        "scheduler",
-        "workflow",
-        "workflow-engine",
-        "workflow-orchestration"
+        "crud",
+        "custom-internal",
+        "developer-tools",
+        "gui",
+        "gui-application",
+        "hacktoberfest",
+        "internal-tools",
+        "java",
+        "javascript",
+        "low-code",
+        "low-code-framework",
+        "react",
+        "self-hosted",
+        "typescript",
+        "webdevelopment",
+        "workflows"
       ],
       "tags": [
         "Data",
-        "Python",
-        "airflow",
-        "apache",
-        "apache-airflow",
+        "TypeScript",
+        "admin-dashboard",
+        "admin-panels",
+        "app-builder",
         "automation",
-        "dag"
+        "crud"
       ],
-      "stars": 45677,
-      "forks": 17157,
-      "openIssues": 1707,
-      "starDelta24h": 1523,
+      "stars": 39952,
+      "forks": 4589,
+      "openIssues": 4453,
+      "starDelta24h": 1332,
       "growthNote": "estimated",
       "score": 100,
       "license": "Apache-2.0",
       "owner": {
-        "login": "apache",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/47359?v=4",
-        "url": "https://github.com/apache"
+        "login": "appsmithorg",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67620218?v=4",
+        "url": "https://github.com/appsmithorg"
       },
-      "createdAt": "2015-04-13T18:04:58Z",
-      "updatedAt": "2026-06-03T09:56:52Z",
-      "pushedAt": "2026-06-03T09:58:37Z"
+      "createdAt": "2020-06-30T04:07:36Z",
+      "updatedAt": "2026-06-03T05:05:54Z",
+      "pushedAt": "2026-06-03T07:56:19Z"
     },
     {
-      "id": "docker-awesome-compose",
+      "id": "lissy93-dashy",
       "kind": "Skill",
       "category": "DevOps",
-      "name": "awesome-compose",
-      "fullName": "docker/awesome-compose",
-      "repoUrl": "https://github.com/docker/awesome-compose",
-      "homepageUrl": "https://docs.docker.com/compose/",
-      "description": "Awesome Docker Compose samples",
-      "summaryZh": "这是一个 DevOps 技能，官方描述为：Awesome Docker Compose samples",
+      "name": "dashy",
+      "fullName": "lissy93/dashy",
+      "repoUrl": "https://github.com/lissy93/dashy",
+      "homepageUrl": "https://dashy.to",
+      "description": "🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
+      "summaryZh": "这是一个 DevOps 技能，官方描述为：🚀 A self-hostable personal dashboard built for you. Includes status-checking, widgets, themes, icon packs, a UI editor and tons more!",
       "whyUseful": [
         "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
         "topics 较完整，便于判断项目定位和生态关联。",
@@ -634,123 +680,61 @@
       "useCases": [
         "提升部署、监控或基础设施管理效率",
         "把运维流程沉淀成可重复执行的工具链",
-        "围绕 awesome、awesome-list、docker-compose 方向做二次开发"
+        "围绕 awesome、dashboard、docker 方向做二次开发"
       ],
       "quickStart": [
-        "Python / Flask / Redis",
-        "docker compose up -d"
+        "yarn start",
+        "yarn dev"
       ],
       "installSteps": [
-        "Docker Compose samples.",
-        "Docker Compose.",
-        "Docker Compose applications with multiple integrated services](#samples-of-docker-compose-applications-with-multiple-integrated-services).",
-        "Docker Compose applications with multiple integrated services"
+        "docker run -p 8080:8080 lissy93/dashy",
+        "docker run -p 4000:8080 lissy93/dashy",
+        "docker run -d \\"
       ],
       "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
       "caveats": [
         "未发现明显上手风险，仍建议先在隔离环境试运行。"
       ],
-      "language": "HTML",
+      "language": "Vue",
       "topics": [
         "awesome",
-        "awesome-list",
-        "docker-compose"
+        "dashboard",
+        "docker",
+        "homelab",
+        "homepage",
+        "mit",
+        "nodejs",
+        "organization",
+        "productivity",
+        "pwa",
+        "self-hosted",
+        "startpage",
+        "vue"
       ],
       "tags": [
         "DevOps",
-        "HTML",
+        "Vue",
         "awesome",
-        "awesome-list",
-        "docker-compose"
+        "dashboard",
+        "docker",
+        "homelab",
+        "homepage"
       ],
-      "stars": 45461,
-      "forks": 8187,
-      "openIssues": 382,
-      "starDelta24h": 1515,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "CC0-1.0",
-      "owner": {
-        "login": "docker",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
-        "url": "https://github.com/docker"
-      },
-      "createdAt": "2020-02-13T08:51:42Z",
-      "updatedAt": "2026-06-03T09:28:32Z",
-      "pushedAt": "2026-05-29T18:23:50Z"
-    },
-    {
-      "id": "usebruno-bruno",
-      "kind": "Skill",
-      "category": "Productivity",
-      "name": "bruno",
-      "fullName": "usebruno/bruno",
-      "repoUrl": "https://github.com/usebruno/bruno",
-      "homepageUrl": "https://www.usebruno.com/",
-      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "summaryZh": "这是一个 效率工具，官方描述为：Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
-      "whyUseful": [
-        "包含可复用的技能、工作流或上手路径，适合加入日常工具箱。",
-        "topics 较完整，便于判断项目定位和生态关联。",
-        "README 内容较充分，具备较好的上手线索。",
-        "最近 7 天内仍有更新，短期维护活跃。"
-      ],
-      "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 api-client、api-testing、automation 方向做二次开发"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "brew install bruno"
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "JavaScript",
-      "topics": [
-        "api-client",
-        "api-testing",
-        "automation",
-        "developer-tools",
-        "git",
-        "graphql-client",
-        "http-client",
-        "javascript",
-        "openapi",
-        "openapi3",
-        "opensource",
-        "rest-api",
-        "testing",
-        "testing-tools"
-      ],
-      "tags": [
-        "Productivity",
-        "JavaScript",
-        "api-client",
-        "api-testing",
-        "automation",
-        "developer-tools",
-        "git"
-      ],
-      "stars": 44647,
-      "forks": 2535,
-      "openIssues": 1694,
-      "starDelta24h": 1488,
+      "stars": 25320,
+      "forks": 1852,
+      "openIssues": 40,
+      "starDelta24h": 844,
       "growthNote": "estimated",
       "score": 100,
       "license": "MIT",
       "owner": {
-        "login": "usebruno",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/114530840?v=4",
-        "url": "https://github.com/usebruno"
+        "login": "lissy93",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1862727?v=4",
+        "url": "https://github.com/lissy93"
       },
-      "createdAt": "2022-09-27T20:51:45Z",
-      "updatedAt": "2026-06-03T09:51:35Z",
-      "pushedAt": "2026-06-03T07:17:35Z"
+      "createdAt": "2021-02-28T10:35:44Z",
+      "updatedAt": "2026-06-03T10:01:57Z",
+      "pushedAt": "2026-06-02T08:37:34Z"
     }
   ]
 }
