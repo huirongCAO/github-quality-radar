@@ -1,0 +1,781 @@
+{
+  "generatedAt": "2026-06-03T09:33:15.168Z",
+  "date": "2026-06-03",
+  "source": "github-search-api",
+  "queryWindow": {
+    "createdAfter": "2026-05-13",
+    "pushedAfter": "2026-05-24"
+  },
+  "items": [
+    {
+      "id": "n8n-io-n8n",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "repoUrl": "https://github.com/n8n-io/n8n",
+      "homepageUrl": "https://n8n.io",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 ai、apis、automation 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npx n8n",
+        "docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
+        "typescript",
+        "workflow",
+        "workflow-automation"
+      ],
+      "tags": [
+        "AI Skill",
+        "TypeScript",
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow"
+      ],
+      "stars": 190871,
+      "forks": 58229,
+      "openIssues": 1480,
+      "starDelta24h": 6362,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "n8n-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
+        "url": "https://github.com/n8n-io"
+      },
+      "createdAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-06-03T09:32:23Z",
+      "pushedAt": "2026-06-03T09:29:07Z"
+    },
+    {
+      "id": "nousresearch-hermes-agent",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "hermes-agent",
+      "fullName": "NousResearch/hermes-agent",
+      "repoUrl": "https://github.com/NousResearch/hermes-agent",
+      "homepageUrl": "https://hermes-agent.nousresearch.com",
+      "description": "The agent that grows with you",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：The agent that grows with you",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 ai、ai-agent、ai-agents 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python scripts that call tools via RPC, collapsing multi-step pipelines into zero-context-cost turns.</td></tr>",
+        "Python 3.11, Node.js, ripgrep, ffmpeg, **and a portable Git Bash** (MinGit, unpacked to",
+        "python 3.11"
+      ],
+      "installSteps": [
+        "pip install -e \".[all,dev]\"",
+        "uv pip install -e \".[all,dev]\""
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Python",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "tags": [
+        "AI Skill",
+        "Python",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt"
+      ],
+      "stars": 178090,
+      "forks": 30497,
+      "openIssues": 16929,
+      "starDelta24h": 5936,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "NousResearch",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/134168893?v=4",
+        "url": "https://github.com/NousResearch"
+      },
+      "createdAt": "2025-07-22T22:22:28Z",
+      "updatedAt": "2026-06-03T09:32:53Z",
+      "pushedAt": "2026-06-03T08:59:13Z"
+    },
+    {
+      "id": "langflow-ai-langflow",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "langflow",
+      "fullName": "langflow-ai/langflow",
+      "repoUrl": "https://github.com/langflow-ai/langflow",
+      "homepageUrl": "http://www.langflow.org",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 agents、chatgpt、generative-ai 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python apps.",
+        "Python environments or install packages manually.",
+        "Python 3.10–3.13 and [uv](https://docs.astral.sh/uv/getting-started/installation/) (recommended package manager).",
+        "Python package](https://docs.langflow.org/get-started-installation#install-and-run-the-langflow-oss-python-package)."
+      ],
+      "installSteps": [
+        "pip install langflow -U",
+        "uv pip install langflow -U",
+        "uv run langflow run",
+        "docker run -p 7860:7860 langflowai/langflow:latest"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Python",
+      "topics": [
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent",
+        "react-flow"
+      ],
+      "tags": [
+        "AI Skill",
+        "Python",
+        "agents",
+        "chatgpt",
+        "generative-ai",
+        "large-language-models",
+        "multiagent"
+      ],
+      "stars": 149158,
+      "forks": 9175,
+      "openIssues": 925,
+      "starDelta24h": 4972,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "langflow-ai",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85702467?v=4",
+        "url": "https://github.com/langflow-ai"
+      },
+      "createdAt": "2023-02-08T22:28:03Z",
+      "updatedAt": "2026-06-03T09:25:41Z",
+      "pushedAt": "2026-06-03T07:15:10Z"
+    },
+    {
+      "id": "langgenius-dify",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "dify",
+      "fullName": "langgenius/dify",
+      "repoUrl": "https://github.com/langgenius/dify",
+      "homepageUrl": "https://dify.ai",
+      "description": "Production-ready platform for agentic workflow development.",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：Production-ready platform for agentic workflow development.",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 agent、agentic-ai、agentic-framework 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "docker compose up -d"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai",
+        "automation",
+        "gemini",
+        "genai",
+        "gpt",
+        "gpt-4",
+        "llm",
+        "low-code",
+        "mcp",
+        "nextjs",
+        "no-code",
+        "openai",
+        "orchestration",
+        "python",
+        "rag",
+        "workflow"
+      ],
+      "tags": [
+        "AI Skill",
+        "TypeScript",
+        "agent",
+        "agentic-ai",
+        "agentic-framework",
+        "agentic-workflow",
+        "ai"
+      ],
+      "stars": 143663,
+      "forks": 22602,
+      "openIssues": 695,
+      "starDelta24h": 4789,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "langgenius",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/127165244?v=4",
+        "url": "https://github.com/langgenius"
+      },
+      "createdAt": "2023-04-12T07:40:24Z",
+      "updatedAt": "2026-06-03T09:32:08Z",
+      "pushedAt": "2026-06-03T09:32:54Z"
+    },
+    {
+      "id": "google-gemini-gemini-cli",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "gemini-cli",
+      "fullName": "google-gemini/gemini-cli",
+      "repoUrl": "https://github.com/google-gemini/gemini-cli",
+      "homepageUrl": "https://geminicli.com",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 ai、ai-agents、cli 方向做二次开发"
+      ],
+      "quickStart": [
+        "npx (no installation required)",
+        "npx @google/gemini-cli"
+      ],
+      "installSteps": [
+        "npm install -g @google/gemini-cli",
+        "npm install -g @google/gemini-cli@preview",
+        "npm install -g @google/gemini-cli@latest",
+        "npm install -g @google/gemini-cli@nightly"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "tags": [
+        "AI Skill",
+        "TypeScript",
+        "ai",
+        "ai-agents",
+        "cli",
+        "gemini",
+        "gemini-api"
+      ],
+      "stars": 104878,
+      "forks": 13987,
+      "openIssues": 1369,
+      "starDelta24h": 3496,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "google-gemini",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/161781182?v=4",
+        "url": "https://github.com/google-gemini"
+      },
+      "createdAt": "2025-04-17T17:04:31Z",
+      "updatedAt": "2026-06-03T09:30:58Z",
+      "pushedAt": "2026-06-03T05:14:31Z"
+    },
+    {
+      "id": "farion1231-cc-switch",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "cc-switch",
+      "fullName": "farion1231/cc-switch",
+      "repoUrl": "https://github.com/farion1231/cc-switch",
+      "homepageUrl": "https://ccswitch.io",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Gemini CLI & Hermes Agent. Only official website: ccswitch.io",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 ai-tools、claude-code、codex 方向做二次开发"
+      ],
+      "quickStart": [
+        "pnpm dev"
+      ],
+      "installSteps": [
+        "pnpm install",
+        "brew install --cask cc-switch"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Rust",
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "minimax",
+        "omo",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "tags": [
+        "AI Skill",
+        "Rust",
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "hermes"
+      ],
+      "stars": 90058,
+      "forks": 5869,
+      "openIssues": 1276,
+      "starDelta24h": 3002,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "farion1231",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44939412?v=4",
+        "url": "https://github.com/farion1231"
+      },
+      "createdAt": "2025-08-04T14:16:16Z",
+      "updatedAt": "2026-06-03T09:33:13Z",
+      "pushedAt": "2026-06-03T07:53:57Z"
+    },
+    {
+      "id": "infiniflow-ragflow",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "ragflow",
+      "fullName": "infiniflow/ragflow",
+      "repoUrl": "https://github.com/infiniflow/ragflow",
+      "homepageUrl": "https://ragflow.io",
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 agentic-ai、agentic-retrieval、agentic-search 方向做二次开发"
+      ],
+      "quickStart": [
+        "npm run dev",
+        "Python >= 3.13",
+        "Python dependencies:",
+        "python 3.13 # install RAGFlow dependent python modules"
+      ],
+      "installSteps": [
+        "npm install",
+        "pipx install uv pre-commit",
+        "uv run python3 download_deps.py",
+        "Docker Compose >= v2.26.1"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Python",
+      "topics": [
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
+        "ai-agents",
+        "context-engine",
+        "context-management",
+        "llm-apps",
+        "rag",
+        "retrieval-augmented-generation"
+      ],
+      "tags": [
+        "AI Skill",
+        "Python",
+        "agentic-ai",
+        "agentic-retrieval",
+        "agentic-search",
+        "ai",
+        "ai-agents"
+      ],
+      "stars": 81802,
+      "forks": 9413,
+      "openIssues": 3225,
+      "starDelta24h": 2727,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "infiniflow",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69962740?v=4",
+        "url": "https://github.com/infiniflow"
+      },
+      "createdAt": "2023-12-12T06:13:13Z",
+      "updatedAt": "2026-06-03T09:30:07Z",
+      "pushedAt": "2026-06-03T09:18:32Z"
+    },
+    {
+      "id": "thedotmack-claude-mem",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "claude-mem",
+      "fullName": "thedotmack/claude-mem",
+      "repoUrl": "https://github.com/thedotmack/claude-mem",
+      "homepageUrl": "https://claude-mem.ai",
+      "description": "Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：Persistent Context Across Sessions for Every Agent –  Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 ai、ai-agents、ai-memory 方向做二次开发"
+      ],
+      "quickStart": [
+        "Python package manager for vector search (auto-installed if missing)"
+      ],
+      "installSteps": [
+        "npm install -g claude-mem",
+        "npx claude-mem install",
+        "npx claude-mem install --ide gemini-cli",
+        "npx claude-mem install --ide opencode"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence",
+        "chromadb",
+        "claude",
+        "claude-agent-sdk",
+        "claude-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "embeddings",
+        "long-term-memory",
+        "mem0",
+        "memory-engine",
+        "openmemory",
+        "rag",
+        "sqlite",
+        "supermemory"
+      ],
+      "tags": [
+        "AI Skill",
+        "TypeScript",
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "anthropic",
+        "artificial-intelligence"
+      ],
+      "stars": 80367,
+      "forks": 6920,
+      "openIssues": 152,
+      "starDelta24h": 2679,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "thedotmack",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/683968?v=4",
+        "url": "https://github.com/thedotmack"
+      },
+      "createdAt": "2025-08-31T20:50:03Z",
+      "updatedAt": "2026-06-03T09:32:39Z",
+      "pushedAt": "2026-06-03T08:39:38Z"
+    },
+    {
+      "id": "netdata-netdata",
+      "kind": "Skill",
+      "category": "MCP",
+      "name": "netdata",
+      "fullName": "netdata/netdata",
+      "repoUrl": "https://github.com/netdata/netdata",
+      "homepageUrl": "https://www.netdata.cloud",
+      "description": "The fastest path to AI-powered full stack observability, even for lean teams.",
+      "summaryZh": "这是一个 MCP 工具，官方描述为：The fastest path to AI-powered full stack observability, even for lean teams.",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "把外部工具接入支持 MCP 的 AI 客户端",
+        "为 agent 提供标准化工具调用",
+        "围绕 ai、alerting、cncf 方向做二次开发"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "按 README 提供的 server 启动命令，将 command、args 和所需环境变量写入支持 MCP 的客户端配置。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "C",
+      "topics": [
+        "ai",
+        "alerting",
+        "cncf",
+        "data-visualization",
+        "database",
+        "devops",
+        "docker",
+        "grafana",
+        "influxdb",
+        "kubernetes",
+        "linux",
+        "machine-learning",
+        "mcp",
+        "mongodb",
+        "monitoring",
+        "mysql",
+        "netdata",
+        "observability",
+        "postgresql",
+        "prometheus"
+      ],
+      "tags": [
+        "MCP",
+        "C",
+        "ai",
+        "alerting",
+        "cncf",
+        "data-visualization",
+        "database"
+      ],
+      "stars": 79049,
+      "forks": 6452,
+      "openIssues": 324,
+      "starDelta24h": 2635,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "GPL-3.0",
+      "owner": {
+        "login": "netdata",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43390781?v=4",
+        "url": "https://github.com/netdata"
+      },
+      "createdAt": "2013-06-17T18:39:10Z",
+      "updatedAt": "2026-06-03T08:58:13Z",
+      "pushedAt": "2026-06-03T09:27:20Z"
+    },
+    {
+      "id": "lobehub-lobehub",
+      "kind": "Skill",
+      "category": "AI Skill",
+      "name": "lobehub",
+      "fullName": "lobehub/lobehub",
+      "repoUrl": "https://github.com/lobehub/lobehub",
+      "homepageUrl": "https://lobehub.com",
+      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "summaryZh": "这是一个 AI 助手技能，官方描述为：🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "whyUseful": [
+        "和 AI 助手、agent 或 MCP 工作流直接相关，适合优先试用。",
+        "topics 较完整，便于判断项目定位和生态关联。",
+        "README 内容较充分，具备较好的上手线索。",
+        "最近 7 天内仍有更新，短期维护活跃。"
+      ],
+      "useCases": [
+        "给 AI 助手补充可复用能力",
+        "沉淀个人或团队的 agent 工作流",
+        "围绕 agent、agent-collaboration、agent-harness 方向做二次开发"
+      ],
+      "quickStart": [
+        "pnpm dev # Full-stack (Next.js + Vite SPA)",
+        "bun run dev:spa # SPA frontend only (port 9876)"
+      ],
+      "installSteps": [
+        "pnpm install",
+        "docker compose up -d"
+      ],
+      "skillIntegration": "先阅读项目提供的 skill、prompt 或 workflow 目录，再按目标 AI 助手的扩展格式复制配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "agent",
+        "agent-collaboration",
+        "agent-harness",
+        "ai",
+        "cao",
+        "chatgpt",
+        "chief-agent-operator",
+        "claude",
+        "deepseek",
+        "gemini",
+        "gpt",
+        "knowledge-base",
+        "mcp",
+        "openai",
+        "skills"
+      ],
+      "tags": [
+        "AI Skill",
+        "TypeScript",
+        "agent",
+        "agent-collaboration",
+        "agent-harness",
+        "ai",
+        "cao"
+      ],
+      "stars": 78126,
+      "forks": 15370,
+      "openIssues": 357,
+      "starDelta24h": 2604,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "lobehub",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/131470832?v=4",
+        "url": "https://github.com/lobehub"
+      },
+      "createdAt": "2023-05-21T07:19:12Z",
+      "updatedAt": "2026-06-03T09:32:16Z",
+      "pushedAt": "2026-06-03T09:17:15Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "GitHub 优质项目雷达",
+  "short_name": "项目雷达",
+  "description": "每日 GitHub 优质项目与 AI Skill 手机看板",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f7f4",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
