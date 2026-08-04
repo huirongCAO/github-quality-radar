@@ -1,419 +1,33 @@
 {
-  "generatedAt": "2026-08-03T04:28:56.099Z",
-  "date": "2026-08-03",
+  "generatedAt": "2026-08-04T04:13:25.709Z",
+  "date": "2026-08-04",
   "source": "github-search-api",
   "queryWindow": {
-    "createdAfter": "2026-07-13",
-    "pushedAfter": "2026-07-24"
+    "createdAfter": "2026-07-14",
+    "pushedAfter": "2026-07-25"
   },
   "items": [
     {
-      "id": "excalidraw-excalidraw",
+      "id": "vinta-awesome-python",
       "kind": "Skill",
-      "category": "Productivity",
-      "name": "excalidraw",
-      "fullName": "excalidraw/excalidraw",
-      "repoUrl": "https://github.com/excalidraw/excalidraw",
-      "homepageUrl": "https://excalidraw.com",
-      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
-      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：Virtual whiteboard for sketching hand-drawn like diagrams。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+      "category": "Skill",
+      "name": "awesome-python",
+      "fullName": "vinta/awesome-python",
+      "repoUrl": "https://github.com/vinta/awesome-python",
+      "homepageUrl": "https://awesome-python.com/",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "summaryZh": "这是一个实用技能。它主要解决的问题是：帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。 官方简介：An opinionated list of Python frameworks, libraries, tools, and resources。适合想把 Python 或相关工具经验变成固定工作流的人。",
       "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 canvas、collaboration、diagrams、drawing 等方向相关，减少你点进去后才发现不相关的时间。",
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的实用技能：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 awesome、collections、python、python-frameworks 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 128,852 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 312,031 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 canvas、collaboration、diagrams 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npm install react react-dom @excalidraw/excalidraw",
-        "yarn add react react-dom @excalidraw/excalidraw"
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "TypeScript",
-      "topics": [
-        "canvas",
-        "collaboration",
-        "diagrams",
-        "drawing",
-        "hacktoberfest",
-        "productivity",
-        "whiteboard"
-      ],
-      "tags": [
-        "Productivity",
-        "TypeScript",
-        "canvas",
-        "collaboration",
-        "diagrams",
-        "drawing",
-        "hacktoberfest"
-      ],
-      "stars": 128852,
-      "forks": 14672,
-      "openIssues": 3282,
-      "starDelta24h": 4295,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "excalidraw",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/59452120?v=4",
-        "url": "https://github.com/excalidraw"
-      },
-      "createdAt": "2020-01-02T01:04:43Z",
-      "updatedAt": "2026-08-03T03:52:48Z",
-      "pushedAt": "2026-07-31T12:22:20Z"
-    },
-    {
-      "id": "rtk-ai-rtk",
-      "kind": "Skill",
-      "category": "Productivity",
-      "name": "rtk",
-      "fullName": "rtk-ai/rtk",
-      "repoUrl": "https://github.com/rtk-ai/rtk",
-      "homepageUrl": "https://www.rtk-ai.app",
-      "description": "CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
-      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 agentic-coding、ai-coding、anthropic、claude-code 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 74,408 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 agentic-coding、ai-coding、anthropic 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "uv run pytest # Preserve uv env, keep program output",
-        "docker compose ps # Compose services",
-        "cargo install --git https://github.com/rtk-ai/rtk",
-        "cargo install --git"
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Rust",
-      "topics": [
-        "agentic-coding",
-        "ai-coding",
-        "anthropic",
-        "claude-code",
-        "cli",
-        "command-line-tool",
-        "cost-reduction",
-        "developer-tools",
-        "llm",
-        "open-source",
-        "productivity",
-        "rust",
-        "token-optimization"
-      ],
-      "tags": [
-        "Productivity",
-        "Rust",
-        "agentic-coding",
-        "ai-coding",
-        "anthropic",
-        "claude-code",
-        "cli"
-      ],
-      "stars": 74408,
-      "forks": 4666,
-      "openIssues": 1812,
-      "starDelta24h": 2480,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "Apache-2.0",
-      "owner": {
-        "login": "rtk-ai",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/258253854?v=4",
-        "url": "https://github.com/rtk-ai"
-      },
-      "createdAt": "2026-01-22T16:54:16Z",
-      "updatedAt": "2026-08-03T04:25:42Z",
-      "pushedAt": "2026-08-02T18:02:07Z"
-    },
-    {
-      "id": "d4vinci-scrapling",
-      "kind": "Skill",
-      "category": "Productivity",
-      "name": "Scrapling",
-      "fullName": "D4Vinci/Scrapling",
-      "repoUrl": "https://github.com/D4Vinci/Scrapling",
-      "homepageUrl": "https://scrapling.readthedocs.io/en/latest/",
-      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 ai、ai-scraping、automation、crawler 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 72,242 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 ai、ai-scraping、automation 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "pip install scrapling",
-        "pip install \"scrapling[fetchers]\"",
-        "pip install \"scrapling[ai]\"",
-        "pip install \"scrapling[shell]\""
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "ai",
-        "ai-scraping",
-        "automation",
-        "crawler",
-        "crawling",
-        "crawling-python",
-        "data",
-        "data-extraction",
-        "mcp",
-        "mcp-server",
-        "playwright",
-        "python",
-        "scraping",
-        "selectors",
-        "stealth",
-        "web-scraper",
-        "web-scraping",
-        "web-scraping-python",
-        "webscraping",
-        "xpath"
-      ],
-      "tags": [
-        "Productivity",
-        "Python",
-        "ai",
-        "ai-scraping",
-        "automation",
-        "crawler",
-        "crawling"
-      ],
-      "stars": 72242,
-      "forks": 7176,
-      "openIssues": 7,
-      "starDelta24h": 2408,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "BSD-3-Clause",
-      "owner": {
-        "login": "D4Vinci",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/20604835?v=4",
-        "url": "https://github.com/D4Vinci"
-      },
-      "createdAt": "2024-10-13T20:29:53Z",
-      "updatedAt": "2026-08-03T04:23:59Z",
-      "pushedAt": "2026-07-30T14:31:38Z"
-    },
-    {
-      "id": "santifer-career-ops",
-      "kind": "Skill",
-      "category": "Productivity",
-      "name": "career-ops",
-      "fullName": "santifer/career-ops",
-      "repoUrl": "https://github.com/santifer/career-ops",
-      "homepageUrl": "https://career-ops.org",
-      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 ai、ai-agent、anthropic、ats 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 62,570 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 ai、ai-agent、anthropic 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "npm run serve:dashboard # launch the TUI"
-      ],
-      "installSteps": [
-        "npm install",
-        "npx @santifer/career-ops init",
-        "npx playwright install chromium # only needed for PDF generation"
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "JavaScript",
-      "topics": [
-        "ai",
-        "ai-agent",
-        "anthropic",
-        "ats",
-        "automation",
-        "beginner-friendly",
-        "career",
-        "careerops",
-        "claude",
-        "claude-code",
-        "cli",
-        "first-timers-only",
-        "golang",
-        "good-first-issue",
-        "interview-prep",
-        "job-application",
-        "job-hunting",
-        "job-search",
-        "open-source",
-        "resume"
-      ],
-      "tags": [
-        "Productivity",
-        "JavaScript",
-        "ai",
-        "ai-agent",
-        "anthropic",
-        "ats",
-        "automation"
-      ],
-      "stars": 62570,
-      "forks": 12333,
-      "openIssues": 227,
-      "starDelta24h": 2086,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "santifer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/256850418?v=4",
-        "url": "https://github.com/santifer"
-      },
-      "createdAt": "2026-04-04T18:21:18Z",
-      "updatedAt": "2026-08-03T04:18:25Z",
-      "pushedAt": "2026-08-03T00:27:33Z"
-    },
-    {
-      "id": "voltagent-awesome-openclaw-skills",
-      "kind": "Skill",
-      "category": "Agent",
-      "name": "awesome-openclaw-skills",
-      "fullName": "VoltAgent/awesome-openclaw-skills",
-      "repoUrl": "https://github.com/VoltAgent/awesome-openclaw-skills",
-      "homepageUrl": "https://clawskills.sh/",
-      "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
-      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 agent-skills、awesome、awesome-list、awesome-lists 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 51,697 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "搭建自动化研究、编码或浏览器任务",
-        "验证多步骤 agent 工作流",
-        "围绕 agent-skills、awesome、awesome-list 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npx clawhub install <skill-slug>",
-        "npx @runapi.ai/mcp"
-      ],
-      "skillIntegration": "先完成依赖安装，再把示例任务改成自己的目标、工具权限和模型配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Unknown",
-      "topics": [
-        "agent-skills",
-        "awesome",
-        "awesome-list",
-        "awesome-lists",
-        "clawd",
-        "clawdbot",
-        "clawdbot-skill",
-        "clawdhub",
-        "moltbot",
-        "moltbot-skills",
-        "openclaw",
-        "openclaw-skills"
-      ],
-      "tags": [
-        "Agent",
-        "agent-skills",
-        "awesome",
-        "awesome-list",
-        "awesome-lists",
-        "clawd"
-      ],
-      "stars": 51697,
-      "forks": 4985,
-      "openIssues": 17,
-      "starDelta24h": 1723,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "VoltAgent",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/201282378?v=4",
-        "url": "https://github.com/VoltAgent"
-      },
-      "createdAt": "2026-01-25T09:22:32Z",
-      "updatedAt": "2026-08-03T04:09:29Z",
-      "pushedAt": "2026-07-31T12:33:07Z"
-    },
-    {
-      "id": "fastlane-fastlane",
-      "kind": "Skill",
-      "category": "Productivity",
-      "name": "fastlane",
-      "fullName": "fastlane/fastlane",
-      "repoUrl": "https://github.com/fastlane/fastlane",
-      "homepageUrl": "https://fastlane.tools",
-      "description": "🚀 The easiest way to automate building and releasing your iOS and Android apps",
-      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：🚀 The easiest way to automate building and releasing your iOS and Android apps。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 android、apps、automation、deployment 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 41,922 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "优化个人效率、知识管理或自动化流程",
-        "把重复任务整理成可执行工作流",
-        "围绕 android、apps、automation 方向做二次开发或收藏为参考资料",
+        "学习或复用某类实用技能",
+        "把成熟方法整理进个人工作流",
+        "围绕 awesome、collections、python 方向做二次开发或收藏为参考资料",
         "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
       ],
       "quickStart": [
@@ -426,139 +40,440 @@
       "caveats": [
         "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
       ],
-      "language": "Ruby",
+      "language": "Python",
       "topics": [
-        "android",
-        "apps",
-        "automation",
-        "deployment",
-        "fastlane",
-        "hacktoberfest",
-        "ios",
-        "mobile",
-        "ruby",
-        "screenshots"
+        "awesome",
+        "collections",
+        "python",
+        "python-frameworks",
+        "python-libraries",
+        "python-tools"
       ],
       "tags": [
-        "Productivity",
-        "Ruby",
-        "android",
-        "apps",
-        "automation",
-        "deployment",
-        "fastlane"
+        "Skill",
+        "Python",
+        "awesome",
+        "collections",
+        "python",
+        "python-frameworks",
+        "python-libraries"
       ],
-      "stars": 41922,
-      "forks": 6024,
-      "openIssues": 686,
-      "starDelta24h": 1397,
+      "stars": 312031,
+      "forks": 28433,
+      "openIssues": 18,
+      "starDelta24h": 10401,
       "growthNote": "estimated",
       "score": 100,
-      "license": "MIT",
+      "license": "NOASSERTION",
       "owner": {
-        "login": "fastlane",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/11098337?v=4",
-        "url": "https://github.com/fastlane"
+        "login": "vinta",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/652070?v=4",
+        "url": "https://github.com/vinta"
       },
-      "createdAt": "2014-12-02T17:00:38Z",
-      "updatedAt": "2026-08-03T04:24:52Z",
-      "pushedAt": "2026-08-01T10:53:19Z"
+      "createdAt": "2014-06-27T21:00:06Z",
+      "updatedAt": "2026-08-04T04:05:58Z",
+      "pushedAt": "2026-08-03T06:50:14Z"
     },
     {
-      "id": "corentinth-it-tools",
+      "id": "n8n-io-n8n",
       "kind": "Skill",
       "category": "Productivity",
-      "name": "it-tools",
-      "fullName": "CorentinTh/it-tools",
-      "repoUrl": "https://github.com/CorentinTh/it-tools",
-      "homepageUrl": "https://it-tools.tech",
-      "description": "Collection of handy online tools for developers, with great UX. ",
-      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：Collection of handy online tools for developers, with great UX. 。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+      "name": "n8n",
+      "fullName": "n8n-io/n8n",
+      "repoUrl": "https://github.com/n8n-io/n8n",
+      "homepageUrl": "https://n8n.io",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
       "whyUseful": [
         "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 converter、developer-productivity、developer-tools、frontend 等方向相关，减少你点进去后才发现不相关的时间。",
+        "项目 topics 比较完整，能快速看出它和 ai、apis、automation、cli 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 40,056 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 199,245 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "优化个人效率、知识管理或自动化流程",
         "把重复任务整理成可执行工作流",
-        "围绕 converter、developer-productivity、developer-tools 方向做二次开发或收藏为参考资料",
+        "围绕 ai、apis、automation 方向做二次开发或收藏为参考资料",
         "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
       ],
       "quickStart": [
-        "pnpm dev"
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
       ],
       "installSteps": [
-        "pnpm install",
-        "docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest",
-        "docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest"
+        "npx n8n",
+        "docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n"
       ],
       "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
       "caveats": [
         "未发现明显上手风险，仍建议先在隔离环境试运行。"
       ],
-      "language": "Vue",
+      "language": "TypeScript",
       "topics": [
-        "converter",
-        "developer-productivity",
-        "developer-tools",
-        "frontend",
-        "javascript",
-        "productivity",
-        "tool",
-        "tools",
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow",
+        "development",
+        "integration-framework",
+        "integrations",
+        "ipaas",
+        "low-code",
+        "low-code-platform",
+        "mcp",
+        "mcp-client",
+        "mcp-server",
+        "n8n",
+        "no-code",
+        "self-hosted",
         "typescript",
-        "vuejs",
-        "website"
+        "workflow",
+        "workflow-automation"
       ],
       "tags": [
         "Productivity",
-        "Vue",
-        "converter",
-        "developer-productivity",
-        "developer-tools",
-        "frontend",
-        "javascript"
+        "TypeScript",
+        "ai",
+        "apis",
+        "automation",
+        "cli",
+        "data-flow"
       ],
-      "stars": 40056,
-      "forks": 5275,
-      "openIssues": 811,
-      "starDelta24h": 1335,
+      "stars": 199245,
+      "forks": 59884,
+      "openIssues": 1406,
+      "starDelta24h": 6642,
       "growthNote": "estimated",
       "score": 100,
-      "license": "GPL-3.0",
+      "license": "NOASSERTION",
       "owner": {
-        "login": "CorentinTh",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/25065347?v=4",
-        "url": "https://github.com/CorentinTh"
+        "login": "n8n-io",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45487711?v=4",
+        "url": "https://github.com/n8n-io"
       },
-      "createdAt": "2020-04-05T11:50:24Z",
-      "updatedAt": "2026-08-03T03:47:45Z",
-      "pushedAt": "2026-07-30T16:32:57Z"
+      "createdAt": "2019-06-22T09:24:21Z",
+      "updatedAt": "2026-08-04T04:12:51Z",
+      "pushedAt": "2026-08-04T04:12:34Z"
     },
     {
-      "id": "github-awesome-copilot",
+      "id": "puppeteer-puppeteer",
       "kind": "Skill",
-      "category": "Agent",
-      "name": "awesome-copilot",
-      "fullName": "github/awesome-copilot",
-      "repoUrl": "https://github.com/github/awesome-copilot",
-      "homepageUrl": "https://awesome-copilot.github.com/",
-      "description": "Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.",
-      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot.。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
+      "category": "Productivity",
+      "name": "puppeteer",
+      "fullName": "puppeteer/puppeteer",
+      "repoUrl": "https://github.com/puppeteer/puppeteer",
+      "homepageUrl": "https://pptr.dev",
+      "description": "JavaScript API for Chrome and Firefox",
+      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：JavaScript API for Chrome and Firefox。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
       "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 agent-skills、agents、ai、awesome 等方向相关，减少你点进去后才发现不相关的时间。",
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 automation、chrome、chromium、developer-tools 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 37,366 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 95,408 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
-        "搭建自动化研究、编码或浏览器任务",
-        "验证多步骤 agent 工作流",
-        "围绕 agent-skills、agents、ai 方向做二次开发或收藏为参考资料",
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 automation、chrome、chromium 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npx puppeteer browsers install"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox",
+        "headless-chrome",
+        "node-module",
+        "testing",
+        "web"
+      ],
+      "tags": [
+        "Productivity",
+        "TypeScript",
+        "automation",
+        "chrome",
+        "chromium",
+        "developer-tools",
+        "firefox"
+      ],
+      "stars": 95408,
+      "forks": 9566,
+      "openIssues": 264,
+      "starDelta24h": 3180,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "puppeteer",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6906516?v=4",
+        "url": "https://github.com/puppeteer"
+      },
+      "createdAt": "2017-05-09T22:16:13Z",
+      "updatedAt": "2026-08-04T02:31:23Z",
+      "pushedAt": "2026-08-03T19:28:17Z"
+    },
+    {
+      "id": "microsoft-playwright",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "playwright",
+      "fullName": "microsoft/playwright",
+      "repoUrl": "https://github.com/microsoft/playwright",
+      "homepageUrl": "https://playwright.dev",
+      "description": "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. ",
+      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. 。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 automation、chrome、chromium、e2e-testing 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 93,938 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 automation、chrome、chromium 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "npx playwright show-trace trace.zip"
+      ],
+      "installSteps": [
+        "npm install -g @playwright/cli@latest",
+        "npx @playwright/mcp@latest",
+        "npx playwright install",
+        "npx playwright test"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron",
+        "end-to-end-testing",
+        "firefox",
+        "javascript",
+        "playwright",
+        "test",
+        "test-automation",
+        "testing",
+        "testing-tools",
+        "web",
+        "webkit"
+      ],
+      "tags": [
+        "Productivity",
+        "TypeScript",
+        "automation",
+        "chrome",
+        "chromium",
+        "e2e-testing",
+        "electron"
+      ],
+      "stars": 93938,
+      "forks": 6208,
+      "openIssues": 168,
+      "starDelta24h": 3131,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "microsoft",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "createdAt": "2019-11-15T18:32:42Z",
+      "updatedAt": "2026-08-04T03:48:26Z",
+      "pushedAt": "2026-08-03T22:37:30Z"
+    },
+    {
+      "id": "burntsushi-ripgrep",
+      "kind": "Skill",
+      "category": "CLI",
+      "name": "ripgrep",
+      "fullName": "BurntSushi/ripgrep",
+      "repoUrl": "https://github.com/BurntSushi/ripgrep",
+      "description": "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
+      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：ripgrep recursively searches directories for a regex pattern while respecting your gitignore。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 cli、command-line、command-line-tool、gitignore 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 66,956 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "在终端中完成高频开发任务",
+        "集成进脚本或 CI 流程",
+        "围绕 cli、command-line、command-line-tool 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "cargo install ripgrep",
+        "brew install ripgrep"
+      ],
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "command-line",
+        "command-line-tool",
+        "gitignore",
+        "grep",
+        "recursively-search",
+        "regex",
+        "ripgrep",
+        "rust",
+        "search"
+      ],
+      "tags": [
+        "CLI",
+        "Rust",
+        "cli",
+        "command-line",
+        "command-line-tool",
+        "gitignore",
+        "grep"
+      ],
+      "stars": 66956,
+      "forks": 2695,
+      "openIssues": 169,
+      "starDelta24h": 2232,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "Unlicense",
+      "owner": {
+        "login": "BurntSushi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/456674?v=4",
+        "url": "https://github.com/BurntSushi"
+      },
+      "createdAt": "2016-03-11T02:02:33Z",
+      "updatedAt": "2026-08-04T04:02:00Z",
+      "pushedAt": "2026-08-03T11:38:59Z"
+    },
+    {
+      "id": "hesreallyhim-awesome-claude-code",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "awesome-claude-code",
+      "fullName": "hesreallyhim/awesome-claude-code",
+      "repoUrl": "https://github.com/hesreallyhim/awesome-claude-code",
+      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 agent-skills、agentic-code、agentic-coding、ai-workflow-optimization 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 51,605 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 agent-skills、agentic-code、agentic-coding 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "pip install roampal."
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Python",
+      "topics": [
+        "agent-skills",
+        "agentic-code",
+        "agentic-coding",
+        "ai-workflow-optimization",
+        "ai-workflows",
+        "anthropic",
+        "anthropic-claude",
+        "awesome",
+        "awesome-claude-code",
+        "awesome-list",
+        "awesome-lists",
+        "awesome-resources",
+        "claude",
+        "claude-code",
+        "coding-agent",
+        "coding-agents",
+        "coding-assistant",
+        "coding-assistants",
+        "llm"
+      ],
+      "tags": [
+        "Productivity",
+        "Python",
+        "agent-skills",
+        "agentic-code",
+        "agentic-coding",
+        "ai-workflow-optimization",
+        "ai-workflows"
+      ],
+      "stars": 51605,
+      "forks": 4494,
+      "openIssues": 784,
+      "starDelta24h": 1720,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "hesreallyhim",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/172150522?v=4",
+        "url": "https://github.com/hesreallyhim"
+      },
+      "createdAt": "2025-04-19T20:55:59Z",
+      "updatedAt": "2026-08-04T04:09:13Z",
+      "pushedAt": "2026-08-04T04:03:23Z"
+    },
+    {
+      "id": "dkhamsing-open-source-ios-apps",
+      "kind": "Skill",
+      "category": "Skill",
+      "name": "open-source-ios-apps",
+      "fullName": "dkhamsing/open-source-ios-apps",
+      "repoUrl": "https://github.com/dkhamsing/open-source-ios-apps",
+      "description": ":iphone: Collaborative List of Open-Source iOS Apps",
+      "summaryZh": "这是一个实用技能。它主要解决的问题是：帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。 官方简介：:iphone: Collaborative List of Open-Source iOS Apps。适合想把资料清单、工具集合或实践方法变成固定工作流的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的实用技能：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 app、apple、apple-tv、apple-vision-pro 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 51,519 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "学习或复用某类实用技能",
+        "把成熟方法整理进个人工作流",
+        "围绕 app、apple、apple-tv 方向做二次开发或收藏为参考资料",
         "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
       ],
       "quickStart": [
@@ -567,45 +482,655 @@
       "installSteps": [
         "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
       ],
-      "skillIntegration": "官方未提供明确 agent 接入命令，建议先阅读 examples 或 docs 后再接入。",
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
       "caveats": [
         "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
       ],
-      "language": "Python",
+      "language": "Unknown",
       "topics": [
-        "agent-skills",
-        "agents",
-        "ai",
+        "app",
+        "apple",
+        "apple-tv",
+        "apple-vision-pro",
+        "apple-watch",
         "awesome",
-        "custom-agents",
-        "github-copilot",
-        "hacktoberfest",
-        "prompt-engineering"
+        "cocoapods",
+        "example",
+        "flutter",
+        "game",
+        "ios",
+        "ipad",
+        "iphone",
+        "list",
+        "objective-c",
+        "react-native",
+        "swift",
+        "swiftui",
+        "tvos",
+        "watchos"
       ],
       "tags": [
-        "Agent",
-        "Python",
-        "agent-skills",
-        "agents",
-        "ai",
-        "awesome",
-        "custom-agents"
+        "Skill",
+        "app",
+        "apple",
+        "apple-tv",
+        "apple-vision-pro",
+        "apple-watch"
       ],
-      "stars": 37366,
-      "forks": 4699,
-      "openIssues": 65,
-      "starDelta24h": 1246,
+      "stars": 51519,
+      "forks": 6016,
+      "openIssues": 1,
+      "starDelta24h": 1717,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "CC0-1.0",
+      "owner": {
+        "login": "dkhamsing",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4723115?v=4",
+        "url": "https://github.com/dkhamsing"
+      },
+      "createdAt": "2015-01-26T23:32:34Z",
+      "updatedAt": "2026-08-04T04:12:50Z",
+      "pushedAt": "2026-08-04T01:40:57Z"
+    },
+    {
+      "id": "usebruno-bruno",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "bruno",
+      "fullName": "usebruno/bruno",
+      "repoUrl": "https://github.com/usebruno/bruno",
+      "homepageUrl": "https://www.usebruno.com/",
+      "description": "Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)",
+      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 api-client、api-testing、automation、developer-tools 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 46,102 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 api-client、api-testing、automation 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npm install -g @usebruno/cli",
+        "docker run -v $(pwd):/bruno usebruno/cli run",
+        "brew install bruno"
+      ],
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "JavaScript",
+      "topics": [
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git",
+        "graphql-client",
+        "http-client",
+        "javascript",
+        "openapi",
+        "openapi3",
+        "opensource",
+        "rest-api",
+        "testing",
+        "testing-tools"
+      ],
+      "tags": [
+        "Productivity",
+        "JavaScript",
+        "api-client",
+        "api-testing",
+        "automation",
+        "developer-tools",
+        "git"
+      ],
+      "stars": 46102,
+      "forks": 2746,
+      "openIssues": 1763,
+      "starDelta24h": 1537,
       "growthNote": "estimated",
       "score": 100,
       "license": "MIT",
       "owner": {
-        "login": "github",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/9919?v=4",
-        "url": "https://github.com/github"
+        "login": "usebruno",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/114530840?v=4",
+        "url": "https://github.com/usebruno"
       },
-      "createdAt": "2025-06-11T16:57:39Z",
-      "updatedAt": "2026-08-03T03:47:20Z",
-      "pushedAt": "2026-08-01T21:03:47Z"
+      "createdAt": "2022-09-27T20:51:45Z",
+      "updatedAt": "2026-08-04T02:57:34Z",
+      "pushedAt": "2026-08-03T16:47:51Z"
+    },
+    {
+      "id": "sxyazi-yazi",
+      "kind": "Skill",
+      "category": "Productivity",
+      "name": "yazi",
+      "fullName": "sxyazi/yazi",
+      "repoUrl": "https://github.com/sxyazi/yazi",
+      "homepageUrl": "https://yazi-rs.github.io",
+      "description": "💥 Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "summaryZh": "这是一个效率工具。它主要解决的问题是：减少重复操作，改善知识管理、任务流转、自动化和协作效率。 官方简介：💥 Blazing fast terminal file manager written in Rust, based on async I/O.。适合想减少重复劳动、整理知识库、优化个人效率或团队协作的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的效率工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 android、asyncio、cli、command-line 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 41,023 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "优化个人效率、知识管理或自动化流程",
+        "把重复任务整理成可执行工作流",
+        "围绕 android、asyncio、cli 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Rust",
+      "topics": [
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency",
+        "cross-platform",
+        "developer-tools",
+        "file-explorer",
+        "file-manager",
+        "filesystem",
+        "linux",
+        "macos",
+        "neovim",
+        "productivity",
+        "rust",
+        "terminal",
+        "tui",
+        "vim",
+        "windows"
+      ],
+      "tags": [
+        "Productivity",
+        "Rust",
+        "android",
+        "asyncio",
+        "cli",
+        "command-line",
+        "concurrency"
+      ],
+      "stars": 41023,
+      "forks": 968,
+      "openIssues": 65,
+      "starDelta24h": 1367,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "sxyazi",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17523360?v=4",
+        "url": "https://github.com/sxyazi"
+      },
+      "createdAt": "2023-07-08T11:45:55Z",
+      "updatedAt": "2026-08-04T02:57:44Z",
+      "pushedAt": "2026-08-03T07:15:15Z"
+    },
+    {
+      "id": "hmbown-codewhale",
+      "kind": "Skill",
+      "category": "Agent",
+      "name": "CodeWhale",
+      "fullName": "Hmbown/CodeWhale",
+      "repoUrl": "https://github.com/Hmbown/CodeWhale",
+      "homepageUrl": "https://codewhale.net/",
+      "description": "Open-source, community-driven agent harness",
+      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：Open-source, community-driven agent harness。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 cli、deepseek、llm、rust 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 40,420 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "搭建自动化研究、编码或浏览器任务",
+        "验证多步骤 agent 工作流",
+        "围绕 cli、deepseek、llm 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npm install -g codewhale"
+      ],
+      "skillIntegration": "先完成依赖安装，再把示例任务改成自己的目标、工具权限和模型配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Rust",
+      "topics": [
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal",
+        "tui"
+      ],
+      "tags": [
+        "Agent",
+        "Rust",
+        "cli",
+        "deepseek",
+        "llm",
+        "rust",
+        "terminal"
+      ],
+      "stars": 40420,
+      "forks": 3493,
+      "openIssues": 229,
+      "starDelta24h": 1347,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "Hmbown",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/101357273?v=4",
+        "url": "https://github.com/Hmbown"
+      },
+      "createdAt": "2026-01-19T18:21:01Z",
+      "updatedAt": "2026-08-04T04:07:53Z",
+      "pushedAt": "2026-08-04T04:03:08Z"
+    },
+    {
+      "id": "vadimdemedes-ink",
+      "kind": "Skill",
+      "category": "CLI",
+      "name": "ink",
+      "fullName": "vadimdemedes/ink",
+      "repoUrl": "https://github.com/vadimdemedes/ink",
+      "homepageUrl": "https://term.ink",
+      "description": "🌈 React for interactive command-line apps",
+      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：🌈 React for interactive command-line apps。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 cli、command-line、flexbox、interactive 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 39,554 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "在终端中完成高频开发任务",
+        "集成进脚本或 CI 流程",
+        "围绕 cli、command-line、flexbox 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "npx babel source.js -o cli.js",
+        "npx react-devtools"
+      ],
+      "installSteps": [
+        "npm install ink react",
+        "npm install --save-dev @babel/preset-react",
+        "npx create-ink-app my-ink-cli",
+        "npx create-ink-app --typescript my-ink-cli"
+      ],
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "cli",
+        "command-line",
+        "flexbox",
+        "interactive",
+        "javascript",
+        "react"
+      ],
+      "tags": [
+        "CLI",
+        "TypeScript",
+        "cli",
+        "command-line",
+        "flexbox",
+        "interactive",
+        "javascript"
+      ],
+      "stars": 39554,
+      "forks": 1033,
+      "openIssues": 33,
+      "starDelta24h": 1318,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "vadimdemedes",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/697676?v=4",
+        "url": "https://github.com/vadimdemedes"
+      },
+      "createdAt": "2017-06-12T06:12:28Z",
+      "updatedAt": "2026-08-04T01:08:38Z",
+      "pushedAt": "2026-08-03T11:45:05Z"
+    },
+    {
+      "id": "ajeetdsouza-zoxide",
+      "kind": "Skill",
+      "category": "CLI",
+      "name": "zoxide",
+      "fullName": "ajeetdsouza/zoxide",
+      "repoUrl": "https://github.com/ajeetdsouza/zoxide",
+      "homepageUrl": "https://crates.io/crates/zoxide",
+      "description": "A smarter cd command. Supports all major shells.",
+      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：A smarter cd command. Supports all major shells.。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 autojump、bash、cli、command-line 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 38,465 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "在终端中完成高频开发任务",
+        "集成进脚本或 CI 流程",
+        "围绕 autojump、bash、cli 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "cargo install zoxide --locked",
+        "brew install zoxide"
+      ],
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Rust",
+      "topics": [
+        "autojump",
+        "bash",
+        "cli",
+        "command-line",
+        "command-line-tool",
+        "elvish",
+        "fasd",
+        "fish",
+        "fish-shell",
+        "fzf",
+        "hacktoberfest",
+        "jump",
+        "nushell",
+        "powershell",
+        "rust",
+        "shell",
+        "xonsh",
+        "xontrib",
+        "z",
+        "zsh"
+      ],
+      "tags": [
+        "CLI",
+        "Rust",
+        "autojump",
+        "bash",
+        "cli",
+        "command-line",
+        "command-line-tool"
+      ],
+      "stars": 38465,
+      "forks": 854,
+      "openIssues": 134,
+      "starDelta24h": 1282,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "ajeetdsouza",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1777663?v=4",
+        "url": "https://github.com/ajeetdsouza"
+      },
+      "createdAt": "2020-03-05T13:11:40Z",
+      "updatedAt": "2026-08-04T02:05:36Z",
+      "pushedAt": "2026-08-03T18:32:57Z"
+    },
+    {
+      "id": "gitlawb-openclaude",
+      "kind": "Skill",
+      "category": "Agent",
+      "name": "openclaude",
+      "fullName": "Gitlawb/openclaude",
+      "repoUrl": "https://github.com/Gitlawb/openclaude",
+      "homepageUrl": "https://openclaude.gitlawb.com",
+      "description": "runs anywhere. uses anything",
+      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：runs anywhere. uses anything。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 ai、ai-agent、ai-tools、cli 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 30,504 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "搭建自动化研究、编码或浏览器任务",
+        "验证多步骤 agent 工作流",
+        "围绕 ai、ai-agent、ai-tools 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "bun run dev:atomic-chat",
+        "npm run dev:grpc",
+        "bun run dev"
+      ],
+      "installSteps": [
+        "npm install -g @gitlawb/openclaude@latest",
+        "bun install"
+      ],
+      "skillIntegration": "先完成依赖安装，再把示例任务改成自己的目标、工具权限和模型配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli",
+        "coding"
+      ],
+      "tags": [
+        "Agent",
+        "TypeScript",
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli",
+        "coding"
+      ],
+      "stars": 30504,
+      "forks": 8900,
+      "openIssues": 66,
+      "starDelta24h": 1017,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "NOASSERTION",
+      "owner": {
+        "login": "Gitlawb",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/268502891?v=4",
+        "url": "https://github.com/Gitlawb"
+      },
+      "createdAt": "2026-04-01T03:15:49Z",
+      "updatedAt": "2026-08-04T03:54:58Z",
+      "pushedAt": "2026-08-03T02:55:23Z"
+    },
+    {
+      "id": "nrwl-nx",
+      "kind": "Skill",
+      "category": "Agent",
+      "name": "nx",
+      "fullName": "nrwl/nx",
+      "repoUrl": "https://github.com/nrwl/nx",
+      "homepageUrl": "https://nx.dev",
+      "description": "The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.",
+      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：The Monorepo Platform that amplifies both developers and AI agents. Nx optimizes your builds, scales your CI, and fixes failed PRs automatically. Ship in half the time.。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 angular、build、build-system、build-tool 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 29,187 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "搭建自动化研究、编码或浏览器任务",
+        "验证多步骤 agent 工作流",
+        "围绕 angular、build、build-system 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "npx nx init"
+      ],
+      "skillIntegration": "先完成依赖安装，再把示例任务改成自己的目标、工具权限和模型配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "angular",
+        "build",
+        "build-system",
+        "build-tool",
+        "building-tool",
+        "cli",
+        "cypress",
+        "hacktoberfest",
+        "javascript",
+        "monorepo",
+        "nextjs",
+        "nodejs",
+        "nx",
+        "nx-workspaces",
+        "react",
+        "storybook",
+        "typescript"
+      ],
+      "tags": [
+        "Agent",
+        "TypeScript",
+        "angular",
+        "build",
+        "build-system",
+        "build-tool",
+        "building-tool"
+      ],
+      "stars": 29187,
+      "forks": 2972,
+      "openIssues": 485,
+      "starDelta24h": 973,
+      "growthNote": "estimated",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "nrwl",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23692104?v=4",
+        "url": "https://github.com/nrwl"
+      },
+      "createdAt": "2017-08-11T18:50:23Z",
+      "updatedAt": "2026-08-04T02:08:53Z",
+      "pushedAt": "2026-08-03T16:09:22Z"
+    },
+    {
+      "id": "esengine-deepseek-reasonix",
+      "kind": "Skill",
+      "category": "Agent",
+      "name": "DeepSeek-Reasonix",
+      "fullName": "esengine/DeepSeek-Reasonix",
+      "repoUrl": "https://github.com/esengine/DeepSeek-Reasonix",
+      "homepageUrl": "http://reasonix.io/",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 agent、agent-framework、ai-agent、ai-coding 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 30,120 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "搭建自动化研究、编码或浏览器任务",
+        "验证多步骤 agent 工作流",
+        "围绕 agent、agent-framework、ai-agent 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "brew install esengine/reasonix/reasonix # macOS"
+      ],
+      "skillIntegration": "先完成依赖安装，再把示例任务改成自己的目标、工具权限和模型配置。",
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Go",
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "tags": [
+        "Agent",
+        "Go",
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli"
+      ],
+      "stars": 30120,
+      "forks": 1938,
+      "openIssues": 1120,
+      "starDelta24h": 868,
+      "growthNote": "observed",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "esengine",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4",
+        "url": "https://github.com/esengine"
+      },
+      "createdAt": "2026-04-21T08:27:02Z",
+      "updatedAt": "2026-08-04T04:09:20Z",
+      "pushedAt": "2026-08-04T04:04:58Z"
     },
     {
       "id": "stablyai-orca",
@@ -622,7 +1147,7 @@
         "项目 topics 比较完整，能快速看出它和 ade、agent-ide、ai-agents、claude-code 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 35,972 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 36,778 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "搭建自动化研究、编码或浏览器任务",
@@ -670,10 +1195,10 @@
         "claude-code",
         "cli"
       ],
-      "stars": 35972,
-      "forks": 2530,
-      "openIssues": 2936,
-      "starDelta24h": 717,
+      "stars": 36778,
+      "forks": 2609,
+      "openIssues": 3018,
+      "starDelta24h": 806,
       "growthNote": "observed",
       "score": 100,
       "license": "MIT",
@@ -683,151 +1208,8 @@
         "url": "https://github.com/stablyai"
       },
       "createdAt": "2026-03-17T03:28:57Z",
-      "updatedAt": "2026-08-03T04:27:30Z",
-      "pushedAt": "2026-08-03T04:28:56Z"
-    },
-    {
-      "id": "esengine-deepseek-reasonix",
-      "kind": "Skill",
-      "category": "Agent",
-      "name": "DeepSeek-Reasonix",
-      "fullName": "esengine/DeepSeek-Reasonix",
-      "repoUrl": "https://github.com/esengine/DeepSeek-Reasonix",
-      "homepageUrl": "http://reasonix.io/",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 agent、agent-framework、ai-agent、ai-coding 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 29,252 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "搭建自动化研究、编码或浏览器任务",
-        "验证多步骤 agent 工作流",
-        "围绕 agent、agent-framework、ai-agent 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "brew install esengine/reasonix/reasonix # macOS"
-      ],
-      "skillIntegration": "先完成依赖安装，再把示例任务改成自己的目标、工具权限和模型配置。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Go",
-      "topics": [
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-coding",
-        "cli",
-        "coding-agent",
-        "deepseek",
-        "developer-tools",
-        "ink",
-        "llm",
-        "prompt-caching",
-        "r1",
-        "terminal",
-        "tool-use",
-        "tui",
-        "typescript"
-      ],
-      "tags": [
-        "Agent",
-        "Go",
-        "agent",
-        "agent-framework",
-        "ai-agent",
-        "ai-coding",
-        "cli"
-      ],
-      "stars": 29252,
-      "forks": 1886,
-      "openIssues": 1399,
-      "starDelta24h": 665,
-      "growthNote": "observed",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "esengine",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/18465053?v=4",
-        "url": "https://github.com/esengine"
-      },
-      "createdAt": "2026-04-21T08:27:02Z",
-      "updatedAt": "2026-08-03T04:28:11Z",
-      "pushedAt": "2026-08-03T04:00:15Z"
-    },
-    {
-      "id": "apollographql-apollo-client",
-      "kind": "Skill",
-      "category": "CLI",
-      "name": "apollo-client",
-      "fullName": "apollographql/apollo-client",
-      "repoUrl": "https://github.com/apollographql/apollo-client",
-      "homepageUrl": "https://apollographql.com/client",
-      "description": "The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development.",
-      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：The industry-leading GraphQL client for TypeScript, JavaScript, React, Vue, Angular, and more. Apollo Client delivers powerful caching, intuitive APIs, and comprehensive developer tools to accelerate your app development.。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 apollo-client、apollographql、graphql、graphql-client 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 19,808 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "在终端中完成高频开发任务",
-        "集成进脚本或 CI 流程",
-        "围绕 apollo-client、apollographql、graphql 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npm install @apollo/client graphql",
-        "npx skills add apollographql/skills --skill apollo-client"
-      ],
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "TypeScript",
-      "topics": [
-        "apollo-client",
-        "apollographql",
-        "graphql",
-        "graphql-client",
-        "typescript"
-      ],
-      "tags": [
-        "CLI",
-        "TypeScript",
-        "apollo-client",
-        "apollographql",
-        "graphql",
-        "graphql-client",
-        "typescript"
-      ],
-      "stars": 19808,
-      "forks": 2819,
-      "openIssues": 412,
-      "starDelta24h": 660,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "apollographql",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/17189275?v=4",
-        "url": "https://github.com/apollographql"
-      },
-      "createdAt": "2016-02-26T20:25:00Z",
-      "updatedAt": "2026-08-02T21:23:35Z",
-      "pushedAt": "2026-08-02T17:48:42Z"
+      "updatedAt": "2026-08-04T04:11:42Z",
+      "pushedAt": "2026-08-04T04:12:24Z"
     },
     {
       "id": "awesome-selfhosted-awesome-selfhosted",
@@ -844,7 +1226,7 @@
         "项目 topics 比较完整，能快速看出它和 awesome、awesome-list、cloud、free-software 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 310,283 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 310,498 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "学习或复用某类实用技能",
@@ -881,10 +1263,10 @@
         "free-software",
         "hosting"
       ],
-      "stars": 310283,
-      "forks": 14556,
+      "stars": 310498,
+      "forks": 14567,
       "openIssues": 0,
-      "starDelta24h": 248,
+      "starDelta24h": 215,
       "growthNote": "observed",
       "score": 100,
       "license": "NOASSERTION",
@@ -894,69 +1276,8 @@
         "url": "https://github.com/awesome-selfhosted"
       },
       "createdAt": "2015-06-01T02:33:17Z",
-      "updatedAt": "2026-08-03T04:28:41Z",
+      "updatedAt": "2026-08-04T04:06:03Z",
       "pushedAt": "2026-08-02T15:42:28Z"
-    },
-    {
-      "id": "spinframework-spin",
-      "kind": "Skill",
-      "category": "Library",
-      "name": "spin",
-      "fullName": "spinframework/spin",
-      "repoUrl": "https://github.com/spinframework/spin",
-      "homepageUrl": "https://spinframework.dev",
-      "description": "Spin is the open source developer tool for building and running serverless applications powered by WebAssembly.",
-      "summaryZh": "这是一个开发库。它主要解决的问题是：作为现有项目里的基础能力接入，减少自己重复造轮子。 官方简介：Spin is the open source developer tool for building and running serverless applications powered by WebAssembly.。适合正在做 Rust 项目，想把成熟能力接入自己代码的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的开发库：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 serverless、spin、webassembly 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 6,487 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "接入现有应用作为基础能力",
-        "学习 API 设计和工程组织",
-        "围绕 serverless、spin、webassembly 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Rust",
-      "topics": [
-        "serverless",
-        "spin",
-        "webassembly"
-      ],
-      "tags": [
-        "Library",
-        "Rust",
-        "serverless",
-        "spin",
-        "webassembly"
-      ],
-      "stars": 6487,
-      "forks": 308,
-      "openIssues": 264,
-      "starDelta24h": 216,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "Apache-2.0",
-      "owner": {
-        "login": "spinframework",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/195972566?v=4",
-        "url": "https://github.com/spinframework"
-      },
-      "createdAt": "2021-11-02T02:17:06Z",
-      "updatedAt": "2026-08-03T02:04:18Z",
-      "pushedAt": "2026-08-02T20:37:54Z"
     },
     {
       "id": "openhands-openhands",
@@ -973,7 +1294,7 @@
         "项目 topics 比较完整，能快速看出它和 agent、artificial-intelligence、chatgpt、claude-ai 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 82,922 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 83,034 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "搭建自动化研究、编码或浏览器任务",
@@ -1014,10 +1335,10 @@
         "claude-ai",
         "cli"
       ],
-      "stars": 82922,
-      "forks": 10684,
-      "openIssues": 286,
-      "starDelta24h": 106,
+      "stars": 83034,
+      "forks": 10699,
+      "openIssues": 300,
+      "starDelta24h": 112,
       "growthNote": "observed",
       "score": 100,
       "license": "MIT",
@@ -1027,8 +1348,8 @@
         "url": "https://github.com/OpenHands"
       },
       "createdAt": "2024-03-13T03:33:31Z",
-      "updatedAt": "2026-08-03T04:18:38Z",
-      "pushedAt": "2026-08-03T02:40:48Z"
+      "updatedAt": "2026-08-04T04:11:17Z",
+      "pushedAt": "2026-08-04T04:11:53Z"
     },
     {
       "id": "avelino-awesome-go",
@@ -1045,7 +1366,7 @@
         "项目 topics 比较完整，能快速看出它和 awesome、awesome-list、go、golang 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 179,947 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 180,046 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "学习或复用某类实用技能",
@@ -1081,10 +1402,10 @@
         "golang",
         "golang-library"
       ],
-      "stars": 179947,
-      "forks": 13451,
-      "openIssues": 199,
-      "starDelta24h": 101,
+      "stars": 180046,
+      "forks": 13452,
+      "openIssues": 200,
+      "starDelta24h": 99,
       "growthNote": "observed",
       "score": 100,
       "license": "MIT",
@@ -1094,287 +1415,8 @@
         "url": "https://github.com/avelino"
       },
       "createdAt": "2014-07-06T13:42:15Z",
-      "updatedAt": "2026-08-03T04:22:38Z",
+      "updatedAt": "2026-08-04T04:01:46Z",
       "pushedAt": "2026-08-02T19:15:01Z"
-    },
-    {
-      "id": "sharkdp-bat",
-      "kind": "Skill",
-      "category": "CLI",
-      "name": "bat",
-      "fullName": "sharkdp/bat",
-      "repoUrl": "https://github.com/sharkdp/bat",
-      "description": "A cat(1) clone with wings.",
-      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：A cat(1) clone with wings.。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 cli、command-line、git、hacktoberfest 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 60,074 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "在终端中完成高频开发任务",
-        "集成进脚本或 CI 流程",
-        "围绕 cli、command-line、git 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "cargo install --path . --locked",
-        "cargo install",
-        "cargo install --locked bat",
-        "cargo install --path . --locked --force"
-      ],
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Rust",
-      "topics": [
-        "cli",
-        "command-line",
-        "git",
-        "hacktoberfest",
-        "rust",
-        "syntax-highlighting",
-        "terminal",
-        "tool"
-      ],
-      "tags": [
-        "CLI",
-        "Rust",
-        "cli",
-        "command-line",
-        "git",
-        "hacktoberfest",
-        "rust"
-      ],
-      "stars": 60074,
-      "forks": 1616,
-      "openIssues": 420,
-      "starDelta24h": 94,
-      "growthNote": "observed",
-      "score": 100,
-      "license": "Apache-2.0",
-      "owner": {
-        "login": "sharkdp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?v=4",
-        "url": "https://github.com/sharkdp"
-      },
-      "createdAt": "2018-04-21T10:52:23Z",
-      "updatedAt": "2026-08-03T03:51:51Z",
-      "pushedAt": "2026-08-01T04:01:27Z"
-    },
-    {
-      "id": "junegunn-fzf",
-      "kind": "Skill",
-      "category": "CLI",
-      "name": "fzf",
-      "fullName": "junegunn/fzf",
-      "repoUrl": "https://github.com/junegunn/fzf",
-      "homepageUrl": "https://junegunn.github.io/fzf/",
-      "description": ":cherry_blossom: A command-line fuzzy finder",
-      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：:cherry_blossom: A command-line fuzzy finder。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 bash、cli、fish、fzf 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 82,220 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "在终端中完成高频开发任务",
-        "集成进脚本或 CI 流程",
-        "围绕 bash、cli、fish 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "brew install fzf"
-      ],
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Go",
-      "topics": [
-        "bash",
-        "cli",
-        "fish",
-        "fzf",
-        "go",
-        "neovim",
-        "tmux",
-        "unix",
-        "vim",
-        "zsh"
-      ],
-      "tags": [
-        "CLI",
-        "Go",
-        "bash",
-        "cli",
-        "fish",
-        "fzf",
-        "go"
-      ],
-      "stars": 82220,
-      "forks": 2832,
-      "openIssues": 326,
-      "starDelta24h": 91,
-      "growthNote": "observed",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "junegunn",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/700826?v=4",
-        "url": "https://github.com/junegunn"
-      },
-      "createdAt": "2013-10-23T16:04:23Z",
-      "updatedAt": "2026-08-03T03:54:43Z",
-      "pushedAt": "2026-08-01T00:17:53Z"
-    },
-    {
-      "id": "521xueweihan-hellogithub",
-      "kind": "Skill",
-      "category": "Skill",
-      "name": "HelloGitHub",
-      "fullName": "521xueweihan/HelloGitHub",
-      "repoUrl": "https://github.com/521xueweihan/HelloGitHub",
-      "homepageUrl": "https://hellogithub.com",
-      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
-      "summaryZh": "这是一个实用技能。它主要解决的问题是：帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。 官方简介：:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.。适合想把 Python 或相关工具经验变成固定工作流的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的实用技能：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 awesome、github、hellogithub、python 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 168,776 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "学习或复用某类实用技能",
-        "把成熟方法整理进个人工作流",
-        "围绕 awesome、github、hellogithub 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "未识别到明确 license，商用或二次分发前需要人工确认。",
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Python",
-      "topics": [
-        "awesome",
-        "github",
-        "hellogithub",
-        "python"
-      ],
-      "tags": [
-        "Skill",
-        "Python",
-        "awesome",
-        "github",
-        "hellogithub",
-        "python"
-      ],
-      "stars": 168776,
-      "forks": 12509,
-      "openIssues": 562,
-      "starDelta24h": 5626,
-      "growthNote": "estimated",
-      "score": 98,
-      "license": "unknown",
-      "owner": {
-        "login": "521xueweihan",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8255800?v=4",
-        "url": "https://github.com/521xueweihan"
-      },
-      "createdAt": "2016-05-04T06:24:11Z",
-      "updatedAt": "2026-08-03T04:27:43Z",
-      "pushedAt": "2026-08-02T07:58:25Z"
-    },
-    {
-      "id": "xiaomingx-indie-hacker-tools-plus",
-      "kind": "Skill",
-      "category": "Agent",
-      "name": "indie-hacker-tools-plus",
-      "fullName": "XiaomingX/indie-hacker-tools-plus",
-      "repoUrl": "https://github.com/XiaomingX/indie-hacker-tools-plus",
-      "homepageUrl": "https://twitter.com/seclink",
-      "description": "为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀",
-      "summaryZh": "这是一个Agent 项目。它主要解决的问题是：把多步骤任务拆成可自动执行的流程，适合研究、编码、资料整理和自动化操作。 官方简介：为独立开发者准备的精选技术栈和工具仓库来了！这里有你最需要的工具，帮你提升开发效率、节约成本，最重要的是——这些工具都是市场上热门的，经过验证的。🚀A curated collection of tech stacks and tools tailored for independent developers is here! these are proven, popular tools widely used in the industry. 🚀。适合希望把调研、编码、资料整理等多步骤任务交给 agent 的用户。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的Agent 项目：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 agent、ai、awesome、awesome-list 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 1,773 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "搭建自动化研究、编码或浏览器任务",
-        "验证多步骤 agent 工作流",
-        "围绕 agent、ai、awesome 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "官方未提供明确 agent 接入命令，建议先阅读 examples 或 docs 后再接入。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Unknown",
-      "topics": [
-        "agent",
-        "ai",
-        "awesome",
-        "awesome-list",
-        "awesome-lists",
-        "aws",
-        "azure",
-        "cloudflare",
-        "github",
-        "hacker",
-        "indiehacker",
-        "llm",
-        "nextjs",
-        "shadcn"
-      ],
-      "tags": [
-        "Agent",
-        "agent",
-        "ai",
-        "awesome",
-        "awesome-list",
-        "awesome-lists"
-      ],
-      "stars": 1773,
-      "forks": 162,
-      "openIssues": 52,
-      "starDelta24h": 59,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "Apache-2.0",
-      "owner": {
-        "login": "XiaomingX",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/5387930?v=4",
-        "url": "https://github.com/XiaomingX"
-      },
-      "createdAt": "2024-11-13T04:04:25Z",
-      "updatedAt": "2026-08-03T02:51:30Z",
-      "pushedAt": "2026-08-02T23:58:29Z"
     },
     {
       "id": "jaywcjlove-awesome-mac",
@@ -1391,7 +1433,7 @@
         "项目 topics 比较完整，能快速看出它和 app、apple、application、apps 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 109,071 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 109,137 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "学习或复用某类实用技能",
@@ -1440,10 +1482,10 @@
         "apps",
         "awesome"
       ],
-      "stars": 109071,
-      "forks": 8273,
-      "openIssues": 582,
-      "starDelta24h": 52,
+      "stars": 109137,
+      "forks": 8285,
+      "openIssues": 587,
+      "starDelta24h": 66,
       "growthNote": "observed",
       "score": 100,
       "license": "CC0-1.0",
@@ -1453,92 +1495,8 @@
         "url": "https://github.com/jaywcjlove"
       },
       "createdAt": "2016-07-17T15:33:47Z",
-      "updatedAt": "2026-08-03T04:11:07Z",
-      "pushedAt": "2026-08-02T01:11:10Z"
-    },
-    {
-      "id": "ml-tooling-best-of-python-dev",
-      "kind": "Skill",
-      "category": "Skill",
-      "name": "best-of-python-dev",
-      "fullName": "ml-tooling/best-of-python-dev",
-      "repoUrl": "https://github.com/ml-tooling/best-of-python-dev",
-      "homepageUrl": "https://python-dev.best-of.org",
-      "description": "🏆 A ranked list of awesome python developer tools and libraries. Updated weekly.",
-      "summaryZh": "这是一个实用技能。它主要解决的问题是：帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。 官方简介：🏆 A ranked list of awesome python developer tools and libraries. Updated weekly.。适合想把 Python 或相关工具经验变成固定工作流的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的实用技能：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 awesome、awesome-list、best-of、best-of-list 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 1,292 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "学习或复用某类实用技能",
-        "把成熟方法整理进个人工作流",
-        "围绕 awesome、awesome-list、best-of 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npm install pyright",
-        "pip install ruff",
-        "pip install pylint",
-        "pip install flake8"
-      ],
-      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Python",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "best-of",
-        "best-of-list",
-        "conda",
-        "debugging",
-        "developer-tools",
-        "flake8",
-        "formatter",
-        "linter",
-        "linters",
-        "mkdocs",
-        "pip",
-        "pylint",
-        "pytest",
-        "python",
-        "python-devtools",
-        "refactoring",
-        "sphinx",
-        "style-checkers"
-      ],
-      "tags": [
-        "Skill",
-        "Python",
-        "awesome",
-        "awesome-list",
-        "best-of",
-        "best-of-list",
-        "conda"
-      ],
-      "stars": 1292,
-      "forks": 76,
-      "openIssues": 26,
-      "starDelta24h": 43,
-      "growthNote": "estimated",
-      "score": 100,
-      "license": "CC-BY-SA-4.0",
-      "owner": {
-        "login": "ml-tooling",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/45942048?v=4",
-        "url": "https://github.com/ml-tooling"
-      },
-      "createdAt": "2021-01-08T14:46:24Z",
-      "updatedAt": "2026-08-02T07:35:17Z",
-      "pushedAt": "2026-07-30T16:29:14Z"
+      "updatedAt": "2026-08-04T04:01:50Z",
+      "pushedAt": "2026-08-04T00:26:07Z"
     },
     {
       "id": "cli-cli",
@@ -1555,7 +1513,7 @@
         "项目 topics 比较完整，能快速看出它和 cli、git、github-api-v4、golang 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 45,605 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 45,634 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "在终端中完成高频开发任务",
@@ -1587,10 +1545,10 @@
         "github-api-v4",
         "golang"
       ],
-      "stars": 45605,
-      "forks": 8808,
-      "openIssues": 1043,
-      "starDelta24h": 26,
+      "stars": 45634,
+      "forks": 8815,
+      "openIssues": 1049,
+      "starDelta24h": 29,
       "growthNote": "observed",
       "score": 100,
       "license": "MIT",
@@ -1600,80 +1558,8 @@
         "url": "https://github.com/cli"
       },
       "createdAt": "2019-10-03T15:24:53Z",
-      "updatedAt": "2026-08-03T03:10:09Z",
-      "pushedAt": "2026-08-01T07:52:51Z"
-    },
-    {
-      "id": "fffaraz-awesome-cpp",
-      "kind": "Skill",
-      "category": "Learning",
-      "name": "awesome-cpp",
-      "fullName": "fffaraz/awesome-cpp",
-      "repoUrl": "https://github.com/fffaraz/awesome-cpp",
-      "homepageUrl": "http://fffaraz.github.io/awesome-cpp/",
-      "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
-      "summaryZh": "这是一个学习路线。它主要解决的问题是：提供路线图、示例、速查表或系统资料，适合长期学习和查漏补缺。 官方简介：A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.。适合想系统学习一个方向，或者需要一份随时查阅资料清单的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的学习路线：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 awesome、awesome-list、c、c-plus-plus 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 72,563 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "系统学习某个技术方向",
-        "把路线图、示例或速查表加入日常练习",
-        "围绕 awesome、awesome-list、c 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
-      ],
-      "language": "Unknown",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "c",
-        "c-plus-plus",
-        "cpp",
-        "cpp-library",
-        "cppcon",
-        "libraries",
-        "list",
-        "lists",
-        "programming-tutorial",
-        "resources"
-      ],
-      "tags": [
-        "Learning",
-        "awesome",
-        "awesome-list",
-        "c",
-        "c-plus-plus",
-        "cpp"
-      ],
-      "stars": 72563,
-      "forks": 8321,
-      "openIssues": 312,
-      "starDelta24h": 20,
-      "growthNote": "observed",
-      "score": 100,
-      "license": "MIT",
-      "owner": {
-        "login": "fffaraz",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/895678?v=4",
-        "url": "https://github.com/fffaraz"
-      },
-      "createdAt": "2014-07-17T08:51:11Z",
-      "updatedAt": "2026-08-03T03:35:08Z",
-      "pushedAt": "2026-08-01T02:12:32Z"
+      "updatedAt": "2026-08-04T03:50:07Z",
+      "pushedAt": "2026-08-03T15:04:55Z"
     },
     {
       "id": "google-gemini-gemini-cli",
@@ -1690,7 +1576,7 @@
         "项目 topics 比较完整，能快速看出它和 ai、ai-agents、cli、gemini 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 106,317 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 106,345 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "把外部工具接入支持 MCP 的 AI 客户端",
@@ -1731,10 +1617,10 @@
         "gemini",
         "gemini-api"
       ],
-      "stars": 106317,
-      "forks": 14372,
-      "openIssues": 990,
-      "starDelta24h": 17,
+      "stars": 106345,
+      "forks": 14376,
+      "openIssues": 991,
+      "starDelta24h": 28,
       "growthNote": "observed",
       "score": 100,
       "license": "Apache-2.0",
@@ -1744,29 +1630,246 @@
         "url": "https://github.com/google-gemini"
       },
       "createdAt": "2025-04-17T17:04:31Z",
-      "updatedAt": "2026-08-03T04:09:39Z",
-      "pushedAt": "2026-08-03T01:34:43Z"
+      "updatedAt": "2026-08-04T04:02:25Z",
+      "pushedAt": "2026-08-04T01:16:39Z"
     },
     {
-      "id": "akullpp-awesome-java",
+      "id": "jeecgboot-jeecgboot",
       "kind": "Skill",
-      "category": "Skill",
-      "name": "awesome-java",
-      "fullName": "akullpp/awesome-java",
-      "repoUrl": "https://github.com/akullpp/awesome-java",
-      "description": "A curated list of awesome frameworks, libraries and software for the Java programming language.",
-      "summaryZh": "这是一个实用技能。它主要解决的问题是：帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。 官方简介：A curated list of awesome frameworks, libraries and software for the Java programming language.。适合想把资料清单、工具集合或实践方法变成固定工作流的人。",
+      "category": "MCP",
+      "name": "JeecgBoot",
+      "fullName": "jeecgboot/JeecgBoot",
+      "repoUrl": "https://github.com/jeecgboot/JeecgBoot",
+      "homepageUrl": "https://jeecg.com",
+      "description": "【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。",
+      "summaryZh": "这是一个MCP 工具。它主要解决的问题是：帮 AI 助手连接外部工具、数据源或本地能力，让 agent 可以真正执行任务。 官方简介：【低代码迈入v2.0时代，一句话即可生成整个系统】企业级AI低代码平台，一键生成前后端代码甚至整个系统。 AI Skills 一句话画流程、设计表单、生成报表、大屏。内置 AI应用平台涵盖：AI聊天、知识库、流程编排、MCP插件等，兼容主流大模型。引领AI低代码「Skills 生成 → 在线配置 → 代码生成 → 手工合并->AI修改」开发模式，解决 Java 项目 90% 重复工作，提高效率又不失灵活。。适合正在使用 Codex、Claude、Cursor 或其他支持工具调用/上下文扩展的 AI 助手用户。",
       "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的实用技能：先理解它解决什么问题，再挑一个场景试用。",
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的MCP 工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 activiti、agent、ai、antd 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 48,622 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。",
-        "建议你先花 3-5 分钟看 README 的 examples、docs 或 screenshots，再决定是否收藏；不要一上来就完整接入。"
+        "已有 47,266 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "把外部工具接入支持 MCP 的 AI 客户端",
+        "为 agent 提供标准化工具调用",
+        "围绕 activiti、agent、ai 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "按 README 提供的 server 启动命令，将 command、args 和所需环境变量写入支持 MCP 的客户端配置。",
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Java",
+      "topics": [
+        "activiti",
+        "agent",
+        "ai",
+        "antd",
+        "claude-code",
+        "cli",
+        "codegenerator",
+        "codex",
+        "flowable",
+        "langchain4j",
+        "llm",
+        "low-code",
+        "mcp",
+        "mybatis-plus",
+        "rag",
+        "skills",
+        "spring-ai",
+        "springboot",
+        "springcloud",
+        "vue3"
+      ],
+      "tags": [
+        "MCP",
+        "Java",
+        "activiti",
+        "agent",
+        "ai",
+        "antd",
+        "claude-code"
+      ],
+      "stars": 47266,
+      "forks": 16127,
+      "openIssues": 42,
+      "starDelta24h": 1576,
+      "growthNote": "estimated",
+      "score": 96,
+      "license": "Apache-2.0",
+      "owner": {
+        "login": "jeecgboot",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86360035?v=4",
+        "url": "https://github.com/jeecgboot"
+      },
+      "createdAt": "2018-11-26T10:40:00Z",
+      "updatedAt": "2026-08-04T03:45:28Z",
+      "pushedAt": "2026-07-30T05:57:37Z"
+    },
+    {
+      "id": "junegunn-fzf",
+      "kind": "Skill",
+      "category": "CLI",
+      "name": "fzf",
+      "fullName": "junegunn/fzf",
+      "repoUrl": "https://github.com/junegunn/fzf",
+      "homepageUrl": "https://junegunn.github.io/fzf/",
+      "description": ":cherry_blossom: A command-line fuzzy finder",
+      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：:cherry_blossom: A command-line fuzzy finder。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 bash、cli、fish、fzf 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 82,233 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "在终端中完成高频开发任务",
+        "集成进脚本或 CI 流程",
+        "围绕 bash、cli、fish 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "brew install fzf"
+      ],
+      "caveats": [
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
+      ],
+      "language": "Go",
+      "topics": [
+        "bash",
+        "cli",
+        "fish",
+        "fzf",
+        "go",
+        "neovim",
+        "tmux",
+        "unix",
+        "vim",
+        "zsh"
+      ],
+      "tags": [
+        "CLI",
+        "Go",
+        "bash",
+        "cli",
+        "fish",
+        "fzf",
+        "go"
+      ],
+      "stars": 82233,
+      "forks": 2837,
+      "openIssues": 328,
+      "starDelta24h": 13,
+      "growthNote": "observed",
+      "score": 100,
+      "license": "MIT",
+      "owner": {
+        "login": "junegunn",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/700826?v=4",
+        "url": "https://github.com/junegunn"
+      },
+      "createdAt": "2013-10-23T16:04:23Z",
+      "updatedAt": "2026-08-04T04:02:32Z",
+      "pushedAt": "2026-08-03T13:43:49Z"
+    },
+    {
+      "id": "521xueweihan-hellogithub",
+      "kind": "Skill",
+      "category": "Skill",
+      "name": "HelloGitHub",
+      "fullName": "521xueweihan/HelloGitHub",
+      "repoUrl": "https://github.com/521xueweihan/HelloGitHub",
+      "homepageUrl": "https://hellogithub.com",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "summaryZh": "这是一个实用技能。它主要解决的问题是：帮你把某类经验、工具清单或实践方法快速整理成可复用的日常流程。 官方简介：:octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.。适合想把 Python 或相关工具经验变成固定工作流的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的实用技能：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 awesome、github、hellogithub、python 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 168,947 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "学习或复用某类实用技能",
         "把成熟方法整理进个人工作流",
-        "围绕 awesome、awesome-list 方向做二次开发或收藏为参考资料",
+        "围绕 awesome、github、hellogithub 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "caveats": [
+        "未识别到明确 license，商用或二次分发前需要人工确认。",
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "Python",
+      "topics": [
+        "awesome",
+        "github",
+        "hellogithub",
+        "python"
+      ],
+      "tags": [
+        "Skill",
+        "Python",
+        "awesome",
+        "github",
+        "hellogithub",
+        "python"
+      ],
+      "stars": 168947,
+      "forks": 12522,
+      "openIssues": 565,
+      "starDelta24h": 171,
+      "growthNote": "observed",
+      "score": 96,
+      "license": "unknown",
+      "owner": {
+        "login": "521xueweihan",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8255800?v=4",
+        "url": "https://github.com/521xueweihan"
+      },
+      "createdAt": "2016-05-04T06:24:11Z",
+      "updatedAt": "2026-08-04T04:13:06Z",
+      "pushedAt": "2026-08-02T07:58:25Z"
+    },
+    {
+      "id": "fffaraz-awesome-cpp",
+      "kind": "Skill",
+      "category": "Learning",
+      "name": "awesome-cpp",
+      "fullName": "fffaraz/awesome-cpp",
+      "repoUrl": "https://github.com/fffaraz/awesome-cpp",
+      "homepageUrl": "http://fffaraz.github.io/awesome-cpp/",
+      "description": "A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.",
+      "summaryZh": "这是一个学习路线。它主要解决的问题是：提供路线图、示例、速查表或系统资料，适合长期学习和查漏补缺。 官方简介：A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things. Inspired by awesome-... stuff.。适合想系统学习一个方向，或者需要一份随时查阅资料清单的人。",
+      "whyUseful": [
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的学习路线：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 awesome、awesome-list、c、c-plus-plus 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 72,583 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+      ],
+      "useCases": [
+        "系统学习某个技术方向",
+        "把路线图、示例或速查表加入日常练习",
+        "围绕 awesome、awesome-list、c 方向做二次开发或收藏为参考资料",
         "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
       ],
       "quickStart": [
@@ -1782,99 +1885,41 @@
       "language": "Unknown",
       "topics": [
         "awesome",
-        "awesome-list"
+        "awesome-list",
+        "c",
+        "c-plus-plus",
+        "cpp",
+        "cpp-library",
+        "cppcon",
+        "libraries",
+        "list",
+        "lists",
+        "programming-tutorial",
+        "resources"
       ],
       "tags": [
-        "Skill",
+        "Learning",
         "awesome",
-        "awesome-list"
+        "awesome-list",
+        "c",
+        "c-plus-plus",
+        "cpp"
       ],
-      "stars": 48622,
-      "forks": 7699,
-      "openIssues": 2,
-      "starDelta24h": 1621,
-      "growthNote": "estimated",
-      "score": 96,
-      "license": "CC-BY-SA-4.0",
-      "owner": {
-        "login": "akullpp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4538351?v=4",
-        "url": "https://github.com/akullpp"
-      },
-      "createdAt": "2014-07-09T10:12:43Z",
-      "updatedAt": "2026-08-03T04:04:04Z",
-      "pushedAt": "2026-08-03T00:32:57Z"
-    },
-    {
-      "id": "sharkdp-fd",
-      "kind": "Skill",
-      "category": "CLI",
-      "name": "fd",
-      "fullName": "sharkdp/fd",
-      "repoUrl": "https://github.com/sharkdp/fd",
-      "description": "A simple, fast and user-friendly alternative to 'find'",
-      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：A simple, fast and user-friendly alternative to 'find'。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 cli、command-line、filesystem、hacktoberfest 等方向相关，减少你点进去后才发现不相关的时间。",
-        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 43,956 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
-      ],
-      "useCases": [
-        "在终端中完成高频开发任务",
-        "集成进脚本或 CI 流程",
-        "围绕 cli、command-line、filesystem 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "npm install -g fd-find",
-        "cargo install fd-find",
-        "cargo install --path .",
-        "brew install fd"
-      ],
-      "caveats": [
-        "未发现明显上手风险，仍建议先在隔离环境试运行。"
-      ],
-      "language": "Rust",
-      "topics": [
-        "cli",
-        "command-line",
-        "filesystem",
-        "hacktoberfest",
-        "regex",
-        "rust",
-        "search",
-        "terminal",
-        "tool"
-      ],
-      "tags": [
-        "CLI",
-        "Rust",
-        "cli",
-        "command-line",
-        "filesystem",
-        "hacktoberfest",
-        "regex"
-      ],
-      "stars": 43956,
-      "forks": 1103,
-      "openIssues": 192,
-      "starDelta24h": 10,
+      "stars": 72583,
+      "forks": 8321,
+      "openIssues": 313,
+      "starDelta24h": 20,
       "growthNote": "observed",
-      "score": 100,
-      "license": "Apache-2.0",
+      "score": 99,
+      "license": "MIT",
       "owner": {
-        "login": "sharkdp",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/4209276?v=4",
-        "url": "https://github.com/sharkdp"
+        "login": "fffaraz",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/895678?v=4",
+        "url": "https://github.com/fffaraz"
       },
-      "createdAt": "2017-05-09T21:27:10Z",
-      "updatedAt": "2026-08-03T04:17:13Z",
-      "pushedAt": "2026-08-01T17:42:57Z"
+      "createdAt": "2014-07-17T08:51:11Z",
+      "updatedAt": "2026-08-04T03:28:04Z",
+      "pushedAt": "2026-08-01T02:12:32Z"
     },
     {
       "id": "tldr-pages-tldr",
@@ -1891,7 +1936,7 @@
         "项目 topics 比较完整，能快速看出它和 android、bsd、cheatsheet、cheatsheets 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 63,273 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 63,281 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "系统学习某个技术方向",
@@ -1944,10 +1989,10 @@
         "cheatsheets",
         "cli"
       ],
-      "stars": 63273,
-      "forks": 5354,
-      "openIssues": 291,
-      "starDelta24h": 6,
+      "stars": 63281,
+      "forks": 5356,
+      "openIssues": 292,
+      "starDelta24h": 8,
       "growthNote": "observed",
       "score": 100,
       "license": "NOASSERTION",
@@ -1957,223 +2002,224 @@
         "url": "https://github.com/tldr-pages"
       },
       "createdAt": "2013-12-08T07:34:43Z",
-      "updatedAt": "2026-08-03T04:24:42Z",
-      "pushedAt": "2026-08-03T04:24:29Z"
+      "updatedAt": "2026-08-04T04:07:31Z",
+      "pushedAt": "2026-08-04T03:36:04Z"
     },
     {
-      "id": "jesseduffield-lazygit",
-      "kind": "Project",
+      "id": "microsoft-rnx-kit",
+      "kind": "Skill",
       "category": "CLI",
-      "name": "lazygit",
-      "fullName": "jesseduffield/lazygit",
-      "repoUrl": "https://github.com/jesseduffield/lazygit",
-      "description": "simple terminal UI for git commands",
-      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：simple terminal UI for git commands。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
+      "name": "rnx-kit",
+      "fullName": "microsoft/rnx-kit",
+      "repoUrl": "https://github.com/microsoft/rnx-kit",
+      "homepageUrl": "https://microsoft.github.io/rnx-kit/",
+      "description": "Modern, scalable tools. Exceptional developer experience.",
+      "summaryZh": "这是一个命令行工具。它主要解决的问题是：把高频操作放进终端完成，适合每天需要快速处理文件、代码、接口或系统任务的人。 官方简介：Modern, scalable tools. Exceptional developer experience.。适合每天使用终端、脚本或自动化命令提升效率的开发者。",
       "whyUseful": [
-        "项目 topics 比较完整，能快速看出它和 cli、git、terminal 等方向相关，减少你点进去后才发现不相关的时间。",
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的命令行工具：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 android、cli、cross-platform、dependency-manager 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 80,972 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。",
-        "建议你先花 3-5 分钟看 README 的 examples、docs 或 screenshots，再决定是否收藏；不要一上来就完整接入。"
+        "已有 1,727 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
         "在终端中完成高频开发任务",
         "集成进脚本或 CI 流程",
-        "围绕 cli、git、terminal 方向做二次开发或收藏为参考资料",
+        "围绕 android、cli、cross-platform 方向做二次开发或收藏为参考资料",
         "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
       ],
       "quickStart": [
         "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
       ],
       "installSteps": [
-        "go install github.com/jesseduffield/lazygit@latest",
-        "go install",
-        "brew install lazygit"
+        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+      ],
+      "caveats": [
+        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+      ],
+      "language": "TypeScript",
+      "topics": [
+        "android",
+        "cli",
+        "cross-platform",
+        "dependency-manager",
+        "desktop",
+        "desktop-development",
+        "developer-experience",
+        "developer-tools",
+        "devtools",
+        "ios",
+        "macos",
+        "mobile",
+        "mobile-development",
+        "monorepo",
+        "react-native",
+        "typescript",
+        "visionos",
+        "windows"
+      ],
+      "tags": [
+        "CLI",
+        "TypeScript",
+        "android",
+        "cli",
+        "cross-platform",
+        "dependency-manager",
+        "desktop"
+      ],
+      "stars": 1727,
+      "forks": 118,
+      "openIssues": 48,
+      "starDelta24h": 58,
+      "growthNote": "estimated",
+      "score": 97,
+      "license": "MIT",
+      "owner": {
+        "login": "microsoft",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6154722?v=4",
+        "url": "https://github.com/microsoft"
+      },
+      "createdAt": "2019-11-15T21:38:13Z",
+      "updatedAt": "2026-08-03T18:23:44Z",
+      "pushedAt": "2026-08-03T23:47:30Z"
+    },
+    {
+      "id": "responsively-org-responsively-app",
+      "kind": "Project",
+      "category": "Web App",
+      "name": "responsively-app",
+      "fullName": "responsively-org/responsively-app",
+      "repoUrl": "https://github.com/responsively-org/responsively-app",
+      "homepageUrl": "https://responsively.app",
+      "description": "A modified web browser that helps in responsive web development. A web developer's must have dev-tool.",
+      "summaryZh": "这是一个Web 应用。它主要解决的问题是：提供可以直接体验的网页产品，也适合借鉴交互和产品实现方式。 官方简介：A modified web browser that helps in responsive web development. A web developer's must have dev-tool.。适合想直接体验产品能力，或寻找可借鉴 Web 产品实现方式的人。",
+      "whyUseful": [
+        "项目 topics 比较完整，能快速看出它和 contributions-welcome、desktop-app、developer-tools、electron 等方向相关，减少你点进去后才发现不相关的时间。",
+        "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
+        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
+        "已有 25,073 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。",
+        "建议你先花 3-5 分钟看 README 的 examples、docs 或 screenshots，再决定是否收藏；不要一上来就完整接入。"
+      ],
+      "useCases": [
+        "快速体验完整产品形态",
+        "借鉴前端交互和数据流设计",
+        "围绕 contributions-welcome、desktop-app、developer-tools 方向做二次开发或收藏为参考资料",
+        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
+      ],
+      "quickStart": [
+        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+      ],
+      "installSteps": [
+        "brew install --cask responsively"
       ],
       "caveats": [
         "未发现明显上手风险，仍建议先在隔离环境试运行。"
       ],
-      "language": "Go",
+      "language": "TypeScript",
       "topics": [
-        "cli",
-        "git",
-        "terminal"
+        "contributions-welcome",
+        "desktop-app",
+        "developer-tools",
+        "electron",
+        "good-first-issue",
+        "hacktoberfest",
+        "javascript",
+        "opensource-alternative",
+        "react",
+        "redux",
+        "responsive",
+        "responsive-web-design",
+        "web-development"
       ],
       "tags": [
-        "CLI",
-        "Go",
-        "cli",
-        "git",
-        "terminal"
+        "Web App",
+        "TypeScript",
+        "contributions-welcome",
+        "desktop-app",
+        "developer-tools",
+        "electron",
+        "good-first-issue"
       ],
-      "stars": 80972,
-      "forks": 2957,
-      "openIssues": 1019,
-      "starDelta24h": 2699,
+      "stars": 25073,
+      "forks": 1388,
+      "openIssues": 318,
+      "starDelta24h": 836,
       "growthNote": "estimated",
-      "score": 94,
-      "license": "MIT",
+      "score": 92,
+      "license": "AGPL-3.0",
       "owner": {
-        "login": "jesseduffield",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/8456633?v=4",
-        "url": "https://github.com/jesseduffield"
+        "login": "responsively-org",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69102126?v=4",
+        "url": "https://github.com/responsively-org"
       },
-      "createdAt": "2018-05-19T00:53:06Z",
-      "updatedAt": "2026-08-03T04:00:42Z",
-      "pushedAt": "2026-08-02T17:29:23Z"
+      "createdAt": "2019-08-10T02:48:18Z",
+      "updatedAt": "2026-08-03T17:11:58Z",
+      "pushedAt": "2026-08-02T05:24:28Z"
     },
     {
-      "id": "salmer-cppdeveloperroadmap",
+      "id": "docker-awesome-compose",
       "kind": "Skill",
-      "category": "Learning",
-      "name": "CppDeveloperRoadmap",
-      "fullName": "salmer/CppDeveloperRoadmap",
-      "repoUrl": "https://github.com/salmer/CppDeveloperRoadmap",
-      "homepageUrl": "https://salmer.github.io/CppDeveloperRoadmap",
-      "description": "The roadmap for learning the C++ programming language for beginners and experienced devs.",
-      "summaryZh": "这是一个学习路线。它主要解决的问题是：提供路线图、示例、速查表或系统资料，适合长期学习和查漏补缺。 官方简介：The roadmap for learning the C++ programming language for beginners and experienced devs.。适合想系统学习一个方向，或者需要一份随时查阅资料清单的人。",
+      "category": "DevOps",
+      "name": "awesome-compose",
+      "fullName": "docker/awesome-compose",
+      "repoUrl": "https://github.com/docker/awesome-compose",
+      "homepageUrl": "https://docs.docker.com/compose/",
+      "description": "Awesome Docker Compose samples",
+      "summaryZh": "这是一个DevOps 技能。它主要解决的问题是：提升部署、监控、自动化运维或基础设施管理效率。 官方简介：Awesome Docker Compose samples。适合负责部署、监控、CI/CD、容器或基础设施的人。",
       "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的学习路线：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 cpp、developer-experience、diy、gitbook 等方向相关，减少你点进去后才发现不相关的时间。",
+        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的DevOps 技能：先理解它解决什么问题，再挑一个场景试用。",
+        "项目 topics 比较完整，能快速看出它和 awesome、awesome-list、docker-compose 等方向相关，减少你点进去后才发现不相关的时间。",
         "README 内容比较充分，通常能找到安装、示例、配置或使用边界，比只有一句简介的项目更适合真正试用。",
         "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 3,521 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
+        "已有 45,967 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。"
       ],
       "useCases": [
-        "系统学习某个技术方向",
-        "把路线图、示例或速查表加入日常练习",
-        "围绕 cpp、developer-experience、diy 方向做二次开发或收藏为参考资料",
+        "提升部署、监控或基础设施管理效率",
+        "把运维流程沉淀成可重复执行的工具链",
+        "围绕 awesome、awesome-list、docker-compose 方向做二次开发或收藏为参考资料",
         "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
       ],
       "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
+        "docker compose up -d"
       ],
       "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
+        "Docker Compose samples.",
+        "Docker Compose.",
+        "Docker Compose applications with multiple integrated services](#samples-of-docker-compose-applications-with-multiple-integrated-services).",
+        "Docker Compose applications with multiple integrated services"
       ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
+      "skillIntegration": "先按安装步骤跑通项目，再从 examples、recipes 或 docs 中挑一个场景改成自己的日常流程。",
       "caveats": [
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。"
+        "未发现明显上手风险，仍建议先在隔离环境试运行。"
       ],
       "language": "HTML",
       "topics": [
-        "cpp",
-        "developer-experience",
-        "diy",
-        "gitbook",
-        "junior",
-        "junior-developers",
-        "learning",
-        "middle",
-        "middle-developers",
-        "roadmap",
-        "self-study"
+        "awesome",
+        "awesome-list",
+        "docker-compose"
       ],
       "tags": [
-        "Learning",
+        "DevOps",
         "HTML",
-        "cpp",
-        "developer-experience",
-        "diy",
-        "gitbook",
-        "junior"
+        "awesome",
+        "awesome-list",
+        "docker-compose"
       ],
-      "stars": 3521,
-      "forks": 327,
-      "openIssues": 2,
-      "starDelta24h": 2,
-      "growthNote": "observed",
-      "score": 87,
-      "license": "NOASSERTION",
-      "owner": {
-        "login": "salmer",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/14817858?v=4",
-        "url": "https://github.com/salmer"
-      },
-      "createdAt": "2021-05-12T13:16:12Z",
-      "updatedAt": "2026-08-02T10:49:34Z",
-      "pushedAt": "2026-07-31T07:43:54Z"
-    },
-    {
-      "id": "wingkwong-leetcode-the-hard-way",
-      "kind": "Skill",
-      "category": "Learning",
-      "name": "leetcode-the-hard-way",
-      "fullName": "wingkwong/leetcode-the-hard-way",
-      "repoUrl": "https://github.com/wingkwong/leetcode-the-hard-way",
-      "homepageUrl": "https://leetcodethehardway.com",
-      "description": "A structured resource for learning data structures and algorithms through tutorials, templates, roadmaps, and LeetCode solution explanations. Join Discord: https://discord.com/invite/Nqm4jJcyBf",
-      "summaryZh": "这是一个学习路线。它主要解决的问题是：提供路线图、示例、速查表或系统资料，适合长期学习和查漏补缺。 官方简介：A structured resource for learning data structures and algorithms through tutorials, templates, roadmaps, and LeetCode solution explanations. Join Discord: https://discord.com/invite/Nqm4jJcyBf。适合想系统学习一个方向，或者需要一份随时查阅资料清单的人。",
-      "whyUseful": [
-        "它不是单纯的代码仓库，更像一个可以拆解进日常工作的学习路线：先理解它解决什么问题，再挑一个场景试用。",
-        "项目 topics 比较完整，能快速看出它和 algorithm、algorithms、coding-challenges、computer-science 等方向相关，减少你点进去后才发现不相关的时间。",
-        "最近 7 天内还有更新，说明不是沉睡项目；如果你要投入时间学习或接入，维护活跃度更值得信任。",
-        "已有 953 个 stars，说明它至少经过了一批用户筛选，适合作为候选工具进入收藏或试用清单。",
-        "建议你先花 3-5 分钟看 README 的 examples、docs 或 screenshots，再决定是否收藏；不要一上来就完整接入。"
-      ],
-      "useCases": [
-        "系统学习某个技术方向",
-        "把路线图、示例或速查表加入日常练习",
-        "围绕 algorithm、algorithms、coding-challenges 方向做二次开发或收藏为参考资料",
-        "先用一个小任务试运行，确认它真的能节省时间，再放进长期工具箱"
-      ],
-      "quickStart": [
-        "官方未提供明确快速开始命令，请按 README 的安装章节继续配置。"
-      ],
-      "installSteps": [
-        "官方未提供明确安装步骤，请先查看 README、docs 或 release 说明。"
-      ],
-      "skillIntegration": "优先阅读 README 的 guide、examples、recipes 或 docs 章节，把可复用步骤整理到自己的工作流。",
-      "caveats": [
-        "未识别到明确 license，商用或二次分发前需要人工确认。",
-        "README 中缺少可直接提取的安装命令，需要进入项目文档核对。",
-        "README 信息偏少，建议先看 issue、release 和示例目录。"
-      ],
-      "language": "MDX",
-      "topics": [
-        "algorithm",
-        "algorithms",
-        "coding-challenges",
-        "computer-science",
-        "cpp",
-        "data-structures",
-        "golang",
-        "hacktoberfest",
-        "interview-preparation",
-        "javascript",
-        "leetcode",
-        "leetcode-solutions",
-        "leetcode-tutorials",
-        "problem-solving",
-        "programming",
-        "python",
-        "software-engineering",
-        "technical-interviews"
-      ],
-      "tags": [
-        "Learning",
-        "MDX",
-        "algorithm",
-        "algorithms",
-        "coding-challenges",
-        "computer-science",
-        "cpp"
-      ],
-      "stars": 953,
-      "forks": 226,
-      "openIssues": 21,
-      "starDelta24h": 32,
+      "stars": 45967,
+      "forks": 8270,
+      "openIssues": 411,
+      "starDelta24h": 1532,
       "growthNote": "estimated",
-      "score": 81,
-      "license": "unknown",
+      "score": 100,
+      "license": "CC0-1.0",
       "owner": {
-        "login": "wingkwong",
-        "avatarUrl": "https://avatars.githubusercontent.com/u/35857179?v=4",
-        "url": "https://github.com/wingkwong"
+        "login": "docker",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5429470?v=4",
+        "url": "https://github.com/docker"
       },
-      "createdAt": "2022-01-21T08:54:51Z",
-      "updatedAt": "2026-08-02T22:05:26Z",
-      "pushedAt": "2026-07-30T16:15:20Z"
+      "createdAt": "2020-02-13T08:51:42Z",
+      "updatedAt": "2026-08-04T03:55:12Z",
+      "pushedAt": "2026-08-03T17:17:44Z"
     }
   ]
 }
